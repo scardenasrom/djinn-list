@@ -1,0 +1,740 @@
+<resources>
+    <string name="app_name">Djinn List</string>
+
+    <string name="view_djinni_caught">Obtained?</string>
+
+    <!-- Golden Sun Djinns -->
+    <string name="golden_sun_name_1">Flint</string>
+    <string name="golden_sun_element_1">Venus</string>
+    <string name="golden_sun_flavor_1">Strike a blow that can cleave stone</string>
+    <string name="golden_sun_location_1">World Map, South of Vale</string>
+    <string name="golden_sun_catching_description_1">It is automatically acquired once you leave vale and enter the
+    overworld for the first time, where a cutscene has Flint talk to you and give a tutorial on how to use Djinn. It will join you
+    no matter how many times you attempt to refuse it joining you, but its various responses may be amusing.</string>
+    <string name="golden_sun_battle_effect_1">When Flint is used in battle, the user strongly attacks a target with a Venus-based attack
+    equal in power to the user\'s normal physical attack increased by 60%.</string>
+    <string name="golden_sun_set_bonus_1">When set, Flint increases the Adept\'s base HP by 8, base PP by 4, and base Attack by 3.</string>
+
+    <string name="golden_sun_name_2">Forge</string>
+    <string name="golden_sun_element_2">Mars</string>
+    <string name="golden_sun_flavor_2">Boost party attack with flame\'s fury</string>
+    <string name="golden_sun_location_2">Goma Cave</string>
+    <string name="golden_sun_catching_description_2">Forge resides in Goma Cave, on an elevated ledge near a person bystanding on the
+    ground level. An earth pillar near the bystander and the Djinni must be pushed right, then up onto the circular indentation in the
+    ground where the pillar will stay permanently. Then the party continues to go through the dungeon, and will eventually make it to
+    the elevated portion of the area where they can hop across the earth pillar and initiate the battle with Forge.</string>
+    <string name="golden_sun_battle_effect_2">When Forge is used in battle, all currently active and alive Adepts get buffed with a
+    25% temporary increase to their respective attack ratings.</string>
+    <string name="golden_sun_set_bonus_2">When set, Forge increases the Adept\'s base HP by 10, base Attack by 2, base Agility by 2,
+    and base Luck by 2.</string>
+
+    <string name="golden_sun_name_3">Gust</string>
+    <string name="golden_sun_element_3">Jupiter</string>
+    <string name="golden_sun_flavor_3">Attack with mighty wind gusts</string>
+    <string name="golden_sun_location_3">Bilibin</string>
+    <string name="golden_sun_catching_description_3">Gust is located in a cavern underneath the town of Bilibin. The gold statue of
+    Lady McCoy in the center of the town conceals an entrance into the area, and can be moved aside so the entrance can be accessed;
+    players will find out that though they can see Gust off to the right of the screen, they cannot reach it because of the placement
+    of another gold statue against a wall. The actual method of getting to Gust is to go up the stairs to the right of the statue outside,
+    and walk down until you\'re walking on top of the town\'s wooden gate permiter clockwise. A cave entrance at the west end of the town
+    leads to the same underground cave, but now you stand just to the left of the gold statue. Cast Move to move the statue one space down,
+    and now you can hop right to where Gust awaits.</string>
+    <string name="golden_sun_battle_effect_3">When Gust is used in battle, the user attacks a target with a Jupiter-based attack equal in
+    power to the user\'s normal physical attack with an aditional 10 damage points added to the result. There is then a chance that all of the
+    resulting damage will be doubled, signified by a second strike to the attack visually.</string>
+    <string name="golden_sun_set_bonus_3">When set, Gust increases the Adept\'s base HP by 9, base Attack by 2, and base Agility by 2.</string>
+
+    <string name="golden_sun_name_4">Granite</string>
+    <string name="golden_sun_element_4">Venus</string>
+    <string name="golden_sun_flavor_4">Create a mighty earthen barrier</string>
+    <string name="golden_sun_location_4">Kolima</string>
+    <string name="golden_sun_catching_description_4">Granite is visible in the town of Kolima, fenced in a small enclosure next to one of the
+    tree-houses, and you cannot reach it from the outside. To reach it, go behind the tree-house and walk down, so that you enter a secret
+    back door into a small room. Following the ladder and the resultant underground cave trail (complete with random battles) leads you into the
+    enclosed area with the Djinnim ready for grabbing.</string>
+    <string name="golden_sun_battle_effect_4">When Granite is used in battle, all currently active and alive Adepts are buffed for until the end
+    of the turn with a protective effect that decreases all damage done to them from enemy attacks by 50%. This effect has the "strikes first"
+    property, meaning it will be the first performed action in a given turn regardless of the agility rating of the user and any other unit
+    in battle.</string>
+    <string name="golden_sun_set_bonus_4">When set, Granite increases the Adept\'s base HP by 9, base Defense by 2, base Agility by 2, and base Luck by 1.</string>
+
+    <string name="golden_sun_name_5">Breeze</string>
+    <string name="golden_sun_element_5">Jupiter</string>
+    <string name="golden_sun_flavor_5">Boost party resistance</string>
+    <string name="golden_sun_location_5">Tret Tree</string>
+    <string name="golden_sun_catching_description_5">Breeze resides in the Tret Tree dungeon-style location, in the upper-rightmost corner
+    of the large exterior screen comprising of tree branches to climb up through. It is obscured by the leafy aspect of the scenery that gets cleared
+    away by the "aura vision" surrounding Isaac as he approaches, so to know it is there you would have to walk up to the end of the topmost
+    branches and reveal it. It must be battled to be acquired.</string>
+    <string name="golden_sun_battle_effect_5">When Breeze is used in battle, all currently active and alive Adepts are buffed with an additional
+    40 resistance points to all their resistances.</string>
+    <string name="golden_sun_set_bonus_5">When set, Breeze increases the Adept\'s base HP by 12, base PP by 5, base Defense by 2, and base Luck by 1.</string>
+
+    <string name="golden_sun_name_6">Fever</string>
+    <string name="golden_sun_element_6">Mars</string>
+    <string name="golden_sun_flavor_6">Wrap a foe in feverish delusion</string>
+    <string name="golden_sun_location_6">Imil</string>
+    <string name="golden_sun_catching_description_6">Fever reposes in Imil Falls Cave, the tiny cavern at the town of Imil, reachable by sliding
+    around through the frozen river and into the hole of the frozen waterfall. To reach there, first you have to stand in front of the snowman
+    at the north end of the town and cast Move to shift it left and drop it onto the frozen river below. Then entering the river via the opening
+    just to the right of the sanctum in the southwest part of town, slide right, up, left, up, left, up, right, up, left, up, right, and up
+    to enter the opening. You automatically slide into Fever, and press A to immediately add it to your collection.</string>
+    <string name="golden_sun_battle_effect_6">When Fever is used in battle, the user attacks a target and an orange cloud is let loose upon impact,
+    dealing a Mars-based attack equal in power to the user\'s normal physical attack with an additional 30 damage points added to the result. There
+    is then a chance that the target will be afflicted by Delusion.</string>
+    <string name="golden_sun_set_bonus_6">When set, Fever increases the Adept\'s base HP by 8, base Attack by 3, and base Agility by 2.</string>
+
+    <string name="golden_sun_name_7">Fizz</string>
+    <string name="golden_sun_element_7">Mercury</string>
+    <string name="golden_sun_flavor_7">Restore HP with calming water</string>
+    <string name="golden_sun_location_7">Mercury Lighthouse</string>
+    <string name="golden_sun_catching_description_7">Fizz is a Djinni that is automatically handed to you as you play through the game, being
+    present on Mia as soon as she joins your party in Mercury Lighthouse somewhat early on in Golden Sun. Aside from Flint, Fizz is the only Djinni
+    in the game that is impossible not to obtain.</string>
+    <string name="golden_sun_battle_effect_7">When Fizz is used in battle, a targeted Adept on the player\'s side is cured by an amount equal to
+    60% of their maximum HP.</string>
+    <string name="golden_sun_set_bonus_7">When set, Fizz increases the Adept\'s base HP by 9, base PP by 4, and base Defense by 3.</string>
+
+    <string name="golden_sun_name_8">Sleet</string>
+    <string name="golden_sun_element_8">Mercury</string>
+    <string name="golden_sun_flavor_8">Drench a foe to drop its attack</string>
+    <string name="golden_sun_location_8">Mercury Lighthouse</string>
+    <string name="golden_sun_catching_description_8">Sleet is located in a hidden room behind one of the many waterfall-walls in a hallway immediately following a room
+    where a pipe spout pushes open a massive section of wall to the left to reveal a door; you must press up against the wall so that you enter
+    the room as though you walked through a house\'s door. It must be battled to be acquired.</string>
+    <string name="golden_sun_battle_effect_8">When Sleet is used in battle, an image of a Mercury Djinni projects a stream of icy shards at the target, dealing
+    a Mercury-based attack equal in power to the user\'s normal physical attack with an additional 30 damage points added to the result. There is then a chance
+    that the target\'s Attack rating will be temporarily reduced by 25%.</string>
+    <string name="golden_sun_set_bonus_8"></string>
+
+    <string name="golden_sun_name_9">Zephyr</string>
+    <string name="golden_sun_element_9">Jupiter</string>
+    <string name="golden_sun_flavor_9">Boost party Agility with a swift wind</string>
+    <string name="golden_sun_location_9">Fuchin Falls Cave</string>
+    <string name="golden_sun_catching_description_9">Zephyr is located in the Fuchin Falls Cave dungeon, in a room with water that is crossed by
+    rolling logs. It shouldn\'t be hard to figure out how to reach it, which is by rolling on the top horizontal log down, rolling the lower left
+    vertical log one space left, rolling the horizontal log back up, hopping to the lower left vertical log, and rolling it right. Zephyr must
+    be battled to be obtained.</string>
+    <string name="golden_sun_battle_effect_9">When Zephyr is used in battle, all currently active and alive Adepts get their Agility ratings
+    temporarily buffed to +100%, the maximum agility bonus possible. It doubles everyone\'s speed, in other words.</string>
+    <string name="golden_sun_set_bonus_9"></string>
+
+    <string name="golden_sun_name_10">Quartz</string>
+    <string name="golden_sun_element_10">Venus</string>
+    <string name="golden_sun_flavor_10">Revive a downed ally</string>
+    <string name="golden_sun_location_10">Mogall Forest</string>
+    <string name="golden_sun_catching_description_10">Quartz is located late in Mogall Forest. In a screen you enter down from the top end, to the
+    right of the screen is a rock right below a horizontal log - position yourself above the log and use Move to move the rock down one space into the
+    circular indenture in the ground, then push the log down. Push a second horizontal log down, push the vertical log from the right to left, and
+    go down and left to reach the Djinni. It must be battled to be acquired.</string>
+    <string name="golden_sun_battle_effect_10" formatted="false">When Quartz is used in battle, a targeted downed party member has a 50% chance to be revived, with
+    their HP restored to 50% of their maximum HP meter.</string>
+    <string name="golden_sun_set_bonus_10"></string>
+
+    <string name="golden_sun_name_11">Mist</string>
+    <string name="golden_sun_element_11">Mercury</string>
+    <string name="golden_sun_flavor_11">Lull a foe into deep sleep</string>
+    <string name="golden_sun_location_11">Xian</string>
+    <string name="golden_sun_catching_description_11">Mist is visibly located in the town of Xian. To get to it, note a woman that patrols between the
+    river and the right of two brown doors embedded into a brown wall below the town\'s dojo. As soon as you talk to her, a Frostable puddle appears
+    beneath her, and she berates you for making her drop her bucket of water. Talk to her when there is one tile between herself and the door she stops
+    in front of, and use Frost on the resultant puddle to form a pillar you can hop across to reach the Djinni to the right.</string>
+    <string name="golden_sun_battle_effect_11">When Mist is used in battle, the user deals an attack that lets loose a white vaporous cloud on impact,
+    dealing a Mercury-based attack equal in power to the user\'s normal physical attack, increased by 30%. The target may be afflicted with Sleep.</string>
+    <string name="golden_sun_set_bonus_11"></string>
+
+    <string name="golden_sun_name_12">Corona</string>
+    <string name="golden_sun_element_12">Mars</string>
+    <string name="golden_sun_flavor_12">Boost party defense with a heat aura</string>
+    <string name="golden_sun_location_12">World Map, north of Xian</string>
+    <string name="golden_sun_catching_description_12">Corona is the first Djinni players can come across in Golden Sun that is randomly encountered in
+    a specific area of the overworld that otherwise appears to be pointless scenery. Thus, it is almost always missed by players playing the game the
+    first time without any outside information. The battle with Corona may ensue in place of a random battle at the end of a vertical stretch of land
+    parallel to the Mogall Forest region in Angara, in the pictured "island" north of Xian, and Corona then, of course, must be battled to be acquired.</string>
+    <string name="golden_sun_battle_effect_12" formatted="false">When Corona\'s battle effect is used, all currently active and alive Adepts get buffed
+    with a 25% temporary increase to their respective defense ratings.</string>
+    <string name="golden_sun_set_bonus_12"></string>
+
+    <string name="golden_sun_name_13">Spritz</string>
+    <string name="golden_sun_element_13">Mercury</string>
+    <string name="golden_sun_flavor_13">Restore party HP with soothing mist</string>
+    <string name="golden_sun_location_13">Altin Peak</string>
+    <string name="golden_sun_catching_description_13">Spritz is located in a larger room in the lower portion of the multi-level Altin Peak dungeon.
+    It is immediately visible as soon as you enter the room. To reach it, cast Frost on a puddle on ground level, and move the earth pillar to the left
+    of that one space left, constructing a hoppable path to the elevated area containing a mine cart. Also interact with a switch so that the arrow
+    pointing right points left. Hop into the mine cart and ride it twice in a row, and you will be dropped off to Spritz\' position.</string>
+    <string name="golden_sun_battle_effect_13" formatted="false">When Spritz is used in battle, all currently alive and battling Adepts have their HP
+    restored by 30% of their respective maximum HP values.</string>
+    <string name="golden_sun_set_bonus_13"></string>
+
+    <string name="golden_sun_name_14">Smog</string>
+    <string name="golden_sun_element_14">Jupiter</string>
+    <string name="golden_sun_flavor_14"></string>
+    <string name="golden_sun_location_14">Lamakan Desert</string>
+    <string name="golden_sun_catching_description_14"></string>
+    <string name="golden_sun_battle_effect_14"></string>
+    <string name="golden_sun_set_bonus_14"></string>
+
+    <string name="golden_sun_name_15">Vine</string>
+    <string name="golden_sun_element_15">Venus</string>
+    <string name="golden_sun_flavor_15"></string>
+    <string name="golden_sun_location_15">World Map, west of Lamakan Desert</string>
+    <string name="golden_sun_catching_description_15"></string>
+    <string name="golden_sun_battle_effect_15"></string>
+    <string name="golden_sun_set_bonus_15"></string>
+
+    <string name="golden_sun_name_16">Scorch</string>
+    <string name="golden_sun_element_16">Mars</string>
+    <string name="golden_sun_flavor_16"></string>
+    <string name="golden_sun_location_16">Kalay Tunnel</string>
+    <string name="golden_sun_catching_description_16"></string>
+    <string name="golden_sun_battle_effect_16"></string>
+    <string name="golden_sun_set_bonus_16"></string>
+
+    <string name="golden_sun_name_17">Sap</string>
+    <string name="golden_sun_element_17">Venus</string>
+    <string name="golden_sun_flavor_17"></string>
+    <string name="golden_sun_location_17">Vault</string>
+    <string name="golden_sun_catching_description_17"></string>
+    <string name="golden_sun_battle_effect_17"></string>
+    <string name="golden_sun_set_bonus_17"></string>
+
+    <string name="golden_sun_name_18">Kite</string>
+    <string name="golden_sun_element_18">Jupiter</string>
+    <string name="golden_sun_flavor_18"></string>
+    <string name="golden_sun_location_18">Vale Cave</string>
+    <string name="golden_sun_catching_description_18"></string>
+    <string name="golden_sun_battle_effect_18"></string>
+    <string name="golden_sun_set_bonus_18"></string>
+
+    <string name="golden_sun_name_19">Ember</string>
+    <string name="golden_sun_element_19">Mars</string>
+    <string name="golden_sun_flavor_19"></string>
+    <string name="golden_sun_location_19">Tolbi</string>
+    <string name="golden_sun_catching_description_19"></string>
+    <string name="golden_sun_battle_effect_19"></string>
+    <string name="golden_sun_set_bonus_19"></string>
+
+    <string name="golden_sun_name_20">Hail</string>
+    <string name="golden_sun_element_20">Mercury</string>
+    <string name="golden_sun_flavor_20"></string>
+    <string name="golden_sun_location_20">World Map, south of Altmiller Cave</string>
+    <string name="golden_sun_catching_description_20"></string>
+    <string name="golden_sun_battle_effect_20"></string>
+    <string name="golden_sun_set_bonus_20"></string>
+
+    <string name="golden_sun_name_21">Ground</string>
+    <string name="golden_sun_element_21">Venus</string>
+    <string name="golden_sun_flavor_21"></string>
+    <string name="golden_sun_location_21">Kalay Docks</string>
+    <string name="golden_sun_catching_description_21"></string>
+    <string name="golden_sun_battle_effect_21"></string>
+    <string name="golden_sun_set_bonus_21"></string>
+
+    <string name="golden_sun_name_22">Squall</string>
+    <string name="golden_sun_element_22">Jupiter</string>
+    <string name="golden_sun_flavor_22"></string>
+    <string name="golden_sun_location_22">Altmiller Cave</string>
+    <string name="golden_sun_catching_description_22"></string>
+    <string name="golden_sun_battle_effect_22"></string>
+    <string name="golden_sun_set_bonus_22"></string>
+
+    <string name="golden_sun_name_23">Tonic</string>
+    <string name="golden_sun_element_23">Mercury</string>
+    <string name="golden_sun_flavor_23"></string>
+    <string name="golden_sun_location_23">Lunpa Fortress</string>
+    <string name="golden_sun_catching_description_23"></string>
+    <string name="golden_sun_battle_effect_23"></string>
+    <string name="golden_sun_set_bonus_23"></string>
+
+    <string name="golden_sun_name_24">Flash</string>
+    <string name="golden_sun_element_24">Mars</string>
+    <string name="golden_sun_flavor_24"></string>
+    <string name="golden_sun_location_24">Suhalla Desert</string>
+    <string name="golden_sun_catching_description_24"></string>
+    <string name="golden_sun_battle_effect_24"></string>
+    <string name="golden_sun_set_bonus_24"></string>
+
+    <string name="golden_sun_name_25">Dew</string>
+    <string name="golden_sun_element_25">Mercury</string>
+    <string name="golden_sun_flavor_25"></string>
+    <string name="golden_sun_location_25">Suhalla Gate</string>
+    <string name="golden_sun_catching_description_25"></string>
+    <string name="golden_sun_battle_effect_25"></string>
+    <string name="golden_sun_set_bonus_25"></string>
+
+    <string name="golden_sun_name_26">Bane</string>
+    <string name="golden_sun_element_26">Venus</string>
+    <string name="golden_sun_flavor_26"></string>
+    <string name="golden_sun_location_26">Crossbone Isle (requires Lift)</string>
+    <string name="golden_sun_catching_description_26"></string>
+    <string name="golden_sun_battle_effect_26"></string>
+    <string name="golden_sun_set_bonus_26"></string>
+
+    <string name="golden_sun_name_27">Torch</string>
+    <string name="golden_sun_element_27">Mars</string>
+    <string name="golden_sun_flavor_27"></string>
+    <string name="golden_sun_location_27">Lalivero</string>
+    <string name="golden_sun_catching_description_27"></string>
+    <string name="golden_sun_battle_effect_27"></string>
+    <string name="golden_sun_set_bonus_27"></string>
+
+    <string name="golden_sun_name_28">Luff</string>
+    <string name="golden_sun_element_28">Jupiter</string>
+    <string name="golden_sun_flavor_28"></string>
+    <string name="golden_sun_location_28">Babi\'s Lighthouse</string>
+    <string name="golden_sun_catching_description_28"></string>
+    <string name="golden_sun_battle_effect_28"></string>
+    <string name="golden_sun_set_bonus_28"></string>
+
+    <!-- Lost Age Djinns -->
+    <string name="lost_age_name_1">Echo</string>
+    <string name="lost_age_element_1">Venus</string>
+    <string name="lost_age_flavor_1">Attack with a double strike</string>
+    <string name="lost_age_location_1">World Map, South of Daila</string>
+    <string name="lost_age_catching_description_1">It is automatically acquired once Felix\’s party leaves Daila and enters the
+    overworld for the first time, and in a cutscene, Echo talks to him and gives a tutorial on using Djinn. It will join you no
+    matter how many times you refuse to let it, but its amusing responses range from outright begging to promising that Felix will be
+    “all kinds of strong” and that Echo “won\’t be a burden and eat all your chips or anything.”</string>
+    <string name="lost_age_battle_effect_1">When Echo is used in battle, the user attacks a target with a two-hit strike that propels
+    the target into the air, dealing a Venus-based attack equal in power to the user\'s normal physical attack, increased by 60%.</string>
+    <string name="lost_age_set_bonus_1">When set, Echo increases the Adept\'s base HP by 9, base PP by 4, and base Attack by 3.</string>
+
+    <string name="lost_age_name_2">Fog</string>
+    <string name="lost_age_element_2">Mercury</string>
+    <string name="lost_age_flavor_2">Blind an enemy wigh fog</string>
+    <string name="lost_age_location_2">Kandorean Temple</string>
+    <string name="lost_age_catching_description_2">Fog is found in the Kandorean Temple, on an alcove reachable by casting the Lash
+    Psynergy on a coiled rope. Lash is the reward at the end of the dungeon, however, acquired in a cutscene with Master Poi after
+    coming out of an exit from the cave area back into the temple area. You would have to reenter the exit you came out of and
+    backtrack to the Djinni once you have Lash, but it is certainly closer to the dungeon\'s exit than the entrance. After climbing
+    up to Fog, you must battle it in order to attain it.</string>
+    <string name="lost_age_battle_effect_2">When Fog is used in battle, the user leaps forward to strike the target and let loose
+    a vaporous blue cloud upon impact, dealing a Mercury-based attack equal in power to the user\'s normal physical attack with
+    an additional 30 damage points. There is then a chance that the target will be afflicted with Delusion.</string>
+    <string name="lost_age_set_bonus_2">When set, Fog increases the Adept\'s base HP by 9, base Defense by 2, base Agility by 2, and base Luck by 1.</string>
+
+    <string name="lost_age_name_3">Breath</string>
+    <string name="lost_age_element_3">Jupiter</string>
+    <string name="lost_age_flavor_3">Restore HP quickly</string>
+    <string name="lost_age_location_3">Shrine of the Sea God</string>
+    <string name="lost_age_catching_description_3">Breath is located in the Shrine of the Sea God, specifically the earlier portion
+    explorable so long as you have the Lash Psynergy from Kandorean Temple. As soon as you use Lash on the coiled rope in the first
+    room, a cutscene with the two young boys Riki and Tavi transpires in which they thank you and report that they were trying to
+    catch the flying creature for themselves before the tidal wave struck. After they leave, you more or less chase Breath through
+    some of the dungeon; one particularly important point to retain is that when you get to three stairwells in close proximity
+    to each other, enter one of the two upper stairs and cross a bridge so that Breath is seen fleeing north from the floor below
+    you, then return and take the lower stairs. You will then go up to where Breath is, but before attempting to catch it, press
+    the lit-up torch against the empty section of wall, so that the Djinni will trap itself and you can battle it.</string>
+    <string name="lost_age_battle_effect_3" formatted="false">When Breath is used in battle, target ally Adept is healed by 40% of its maximum HP. This effect
+    has the "strikes first" property that guarantees it to occur as the first action in a given turn regardless of the user\'s
+    Agility, unless another move with the strikes-first property is used in the same turn, in which case Agility will be measured.</string>
+    <string name="lost_age_set_bonus_3">When set, Breath increases the Adept\'s base HP by 9, base Defense by 3, and base Agility by 4.</string>
+
+    <string name="lost_age_name_4">Cannon</string>
+    <string name="lost_age_element_4">Mars</string>
+    <string name="lost_age_flavor_4">Strike with the power of Mars</string>
+    <string name="lost_age_location_4">Dehkan Plateau</string>
+    <string name="lost_age_catching_description_4">Cannon is somewhat infamous for being found in the Dehkan Plateau, but only
+    actually acquirable after being chased through the entire location by the player and forcing you to solve puzzles it
+    inadvertently creates for you as you proceed after it. Eventually, you corner it in a room where it can hop across two
+    separate kinds of pillars if you approach it, but instead of doing that you should climb down and use your newly acquired
+    Pound Psynergy to pound down the pillar to the left, then climb back up. Cannon can then be battled and acquired.</string>
+    <string name="lost_age_battle_effect_4">When Cannon is used in battle, the user charges forward to tackle the target while
+    cloaked in a fiery aura, dealing a Mars-based attack equal in power to the user\'s normal physical attack with an
+    additional 40 damage points added to the result.</string>
+    <string name="lost_age_set_bonus_4">When set, Cannon increases the Adept\'s base HP by 10 and base Attack by 3.</string>
+
+    <string name="lost_age_name_5">Iron</string>
+    <string name="lost_age_element_5">Venus</string>
+    <string name="lost_age_flavor_5">Bolster the party\'s defense</string>
+    <string name="lost_age_location_5">World Map, west of Madra</string>
+    <string name="lost_age_catching_description_5">Iron is the first Djinni players can come across inThe Lost Age that is
+    randomly encountered in a specific area of the overworld that otherwise appears to be featureless scenery. Compared to
+    other Djinn found and fought like this, though, Iron is perhaps the only one that players without any form of outside
+    help or guidance have a pretty good chance to stumble upon regardless; Iron is located in the green forest bordering the
+    left of the town of Madra, so if a random battle occurs while you\'re crossing the forest on the way to Madra, you will
+    most likely engage in the battle with Iron. Then, of course, it must be battled to be acquired.</string>
+    <string name="lost_age_battle_effect_5" formatted="false">When Iron is used in battle, all currently active and alive Adepts get buffed
+    with a 25% temporary increase to their respective defense ratings.</string>
+    <string name="lost_age_set_bonus_5">When set, Iron increases the Adept\'s base HP by 11, base Defense by 2, and base Agility by 3.</string>
+
+    <string name="lost_age_name_6">Sour</string>
+    <string name="lost_age_element_6">Mercury</string>
+    <string name="lost_age_flavor_6">Reduce a foe\'s resistance</string>
+    <string name="lost_age_location_6">World Map, northeast of Mikasalla and south of Osenia Cavern</string>
+    <string name="lost_age_catching_description_6">Sour is a Djinni that is randomly encountered in a specific area of the
+    overworld that otherwise appears to be pointless scenery. Thus, it is very often missed by players playing the game the
+    first time without any outside information. The battle with Sour may ensue in place of a random battle in the pictured
+    area northeast of the town of Mikasalla and just below the cavern containing the Megaera summon tablet. It must be defeated
+    to be acquired.</string>
+    <string name="lost_age_battle_effect_6" formatted="false">When Sour is used in battle, the user deals a Mercury-based
+    attack equal in power to the user\'s normal physical attack increased by 50%. There is then a chance that all of the
+    target\'s resistances may be lowered by 40 each. Note that resist-dropping effects may be stacked to a maximum of -80.</string>
+    <string name="lost_age_set_bonus_6">When set, Sour increases the Adept\'s base HP by 8, base PP by 4, and base Attack by 3.</string>
+
+    <string name="lost_age_name_7">Blitz</string>
+    <string name="lost_age_element_7">Jupiter</string>
+    <string name="lost_age_flavor_7">Numb a foe with a lightning strike</string>
+    <string name="lost_age_location_7">Yampi Desert</string>
+    <string name="lost_age_catching_description_7">Blitz is located in Yampi Desert, on an elevated portion of desert that must
+    be hopped onto using Poundable wooden pillars - you must pound the pillars that allow you to climb up to the elevated level
+    of the screen without pounding any of the pillars you need to use to hop to where Blitz is. From where you enter the screen
+    from the lower left, pound the immediately visible left pillar visible, go to the right in the area beyond that, pound the
+    rightmost pillar there, and pound the right of the two topmost pillars that are up against the north wall. Climb up the
+    resultant ladder, hop left, go down, hop right, go down, hop down once and left twice across the two concurrent wood pillars,
+    go down and right, and hop right to reach Blitz\' area, where it must be battled to be obtained. Considering the hefty amount
+    of work needed to get onto Blitz\' area, the importance of saving before the battle cannot be stressed enough.</string>
+    <string name="lost_age_battle_effect_7">When Blitz is used in battle, the user strikes the target and a series of four
+    lightning bolts circle around the target briefly after the strike transpires. The attack deals a Jupiter-based attack
+    equal in power to the user\'s normal physical attack with an additional 30 damage points added to the result, and
+    there is then a chance that the target will be afflicted with Stun.</string>
+    <string name="lost_age_set_bonus_7">When set, Blitz increases the Adept\'s base HP by 10, base PP by 4, and base Attack by 3.</string>
+
+    <string name="lost_age_name_8">Spark</string>
+    <string name="lost_age_element_8">Mars</string>
+    <string name="lost_age_flavor_8">Revive an ally with cheers of support</string>
+    <string name="lost_age_location_8">Mikasalla, requires Scoop</string>
+    <string name="lost_age_catching_description_8">Spark is located in the town of Mikasalla, in a separate screen north of the
+    main town where it is visible just by walking up to the top. It is only reachable, however, with the Scoop Psynergy earned
+    from a boss fight in Yampi Desert; go to the tiny ranch with the chicken and sheep in the lower left corner of the town, and
+    cast Scoop in the exact center to open up a ladder, which leads to an underground cave trail. Following it leads you to the
+    Djinni, which you can pick up without a fight.</string>
+    <string name="lost_age_battle_effect_8" formatted="false">When Spark is used in battle, a targeted downed party member has
+    a 60% chance to be revived with his or her HP restored to 60% of his or her maximum HP meter.</string>
+    <string name="lost_age_set_bonus_8">When set, Spark increases the Adept\'s base HP by 11 and base PP by 6.</string>
+
+    <string name="lost_age_name_9">Ether</string>
+    <string name="lost_age_element_9">Jupiter</string>
+    <string name="lost_age_flavor_9">Focus will restore PP</string>
+    <string name="lost_age_location_9">Garoh</string>
+    <string name="lost_age_catching_description_9">Ether is available in the town of Garoh, automatically handed to you after two
+    lengthy cutscenes. First, you will have to have completed the Air\'s Rock dugneon. Then, at Garoh, use the Reveal Psynergy you
+    acquired there to enter the entrance you see the werewolf that says "What!? Outsiders, here?" exit and reenter. Follow your
+    way and eventually trigger a cutscene with the werewolf, Maha. You automatically return to the town\'s inn, and the town is now
+    under daylight. Enter the hidden entrance again and return to where you spoke with Maha to trigger another, lengthier cutscene
+    with him. Maha will eventually produce the Jupiter Djinni for Felix\'s party to take on their travels (learning from the party
+    in the process that the name "Djinni" is what you call creatures like this), and you automatically acquire it. In a sense,
+    this is another eventual reward you get for completing Air\'s Rock.</string>
+    <string name="lost_age_battle_effect_9" formatted="false">When Ether is used in battle, a targeted Adept\'s PP meter is
+    restored by an amount equal to 30% of his or her maximum PP meter.</string>
+    <string name="lost_age_set_bonus_9">When set, Ether increases the Adept\'s base HP by 8, base PP by 4, base Agility by 3, and base Luck by 2.</string>
+
+    <string name="lost_age_name_10">Kindle</string>
+    <string name="lost_age_element_10">Mars</string>
+    <string name="lost_age_flavor_10">Increase all allies\' attack</string>
+    <string name="lost_age_location_10">Gondowan Cliffs</string>
+    <string name="lost_age_catching_description_10">Kindle resides in Gondowan Cliffs. To easily find it in the mazelike location,
+    when you get to the stretched-out tightrope you walk to cross the river below, climb up two vines to the right, then follow
+    the path downward past a small puddle to Kindle\'s position. There, it must be battled to be obtained.</string>
+    <string name="lost_age_battle_effect_10" formatted="false">When Kindle is used in battle, all currently active and alive Adepts
+    get buffed with a 25% temporary increase to their respective attack ratings.</string>
+    <string name="lost_age_set_bonus_10">When set, Kindle increases the Adept\'s base HP by 8, base Attack by 5, and base Luck by 1.</string>
+
+    <string name="lost_age_name_11">Chill</string>
+    <string name="lost_age_element_11">Mercury</string>
+    <string name="lost_age_flavor_11">Strike to reduce a foe\'s defense</string>
+    <string name="lost_age_location_11">World Map, southwest of Naribwe</string>
+    <string name="lost_age_catching_description_11">Chill is a Djinni that is randomly encountered in a specific area of the overworld
+    that otherwise appears to be pointless scenery. Thus, it is very often missed by players playing the game the first time without
+    any outside information. The battle with Chill may ensue in place of a random battle in the pictured area in the bottom part of the
+    central forested stretch of land area south ofNaribwe, where it then must be defeated to be acquired.</string>
+    <string name="lost_age_battle_effect_11" formatted="false">When Chill is used in battle, the user strikes the enemy and a large,
+    misty white cloud is let off to surround the target on impact, dealing a Mercury-based attack equal in power to the user\'s
+    normal physical attack with an additional 40 damage points added to the result. There is then a chance that the target\'s
+    Defense rating will be temporarily reduced by 25%.</string>
+    <string name="lost_age_set_bonus_11">When set, Chill increases the Adept\'s base HP by 10, base PP by 3, and base Defense by 2.</string>
+
+    <string name="lost_age_name_12">Spring</string>
+    <string name="lost_age_element_12">Mercury</string>
+    <string name="lost_age_flavor_12">Restore HP with healing herbs</string>
+    <string name="lost_age_location_12">Kibombo, comes with Piers</string>
+    <string name="lost_age_catching_description_12">Spring is a Djinni that is automatically handed to you as you play through the
+    game, being present on Piers as soon as he joins your party in the town of Kibombo somewhat early on in The Lost Age. Spring
+    is one of three Djinn in The Lost Age - the others being Echo and another Mercury Djinni in Piers\' possession, Shade - that
+    is impossible not to obtain.</string>
+    <string name="lost_age_battle_effect_12" formatted="false">When Spring is used in battle, a targeted Adept on the player\'s
+    side has their HP cured by an amount equal to 70% of their maximum HP.</string>
+    <string name="lost_age_set_bonus_12">When set, Spring increases the Adept\'s base HP by 11 and base PP by 5.</string>
+
+    <string name="lost_age_name_13">Shade</string>
+    <string name="lost_age_element_13">Mercury</string>
+    <string name="lost_age_flavor_13">Create a watery shield</string>
+    <string name="lost_age_location_13">Kibombo, comes with Piers</string>
+    <string name="lost_age_catching_description_13">Shade is a Djinni that is automatically handed to you as you play through
+    the game, being present on Piers as soon as he joins your party in the town of Kibombo somewhat early on in The Lost Age.
+    Shade is one of three Djinn in The Lost Age - the others being Echo and another Mercury Djinni in Piers\' possession,
+    Spring - that is impossible not to obtain.</string>
+    <string name="lost_age_battle_effect_13" formatted="false">When Shade is used in battle, all damage done to all current battling
+    party members is reduced by 60% for the duration of that turn, and this effect is always cast first regardless of the user\’s
+    Agility.</string>
+    <string name="lost_age_set_bonus_13">When set, Spring increases the Adept\'s base HP by 9, base Defense by 3, and base Luck by 2.</string>
+
+    <string name="lost_age_name_14">Steel</string>
+    <string name="lost_age_element_14">Venus</string>
+    <string name="lost_age_flavor_14">Siphon a foe\'s HP with a kiss</string>
+    <string name="lost_age_location_14">Gabomba Statue</string>
+    <string name="lost_age_catching_description_14">Steel is located in the Gabomba Statue. Players playing through on their
+    first time or without a guide, however, may find this Djinni somewhat difficult to acquire as it may not be immediately
+    obvious what to do. First of all, reverse all gears in the dungeon - this is necessary to complete the dungeon to begin
+    with. Then in one of the upper floors, there are two pink gears side by side rotating downward into what would seem to
+    be an abyss, which is what\'s pictured. Step behind the left gear and press down to jump onto it and fall down to the
+    floor below; you will land very near Steel, where it can then be battled to be acquired.</string>
+    <string name="lost_age_battle_effect_14" formatted="false">When Steel is used in battle, the user strikes the target
+    and siphons a glowing yellow energy out of it, dealing a Venus-based attack equal in power to the user\'s normal
+    physical attack increased by 30%. The user\'s HP will be restored by an amount equal to 50% of the damage dealt to
+    the target. If the target dies, the user\'s HP is restored by half of the target\'s health before the attack.</string>
+    <string name="lost_age_set_bonus_14">When set, Steel increases the Adept\'s base HP by 9, base Attack by 4, base Defense by 2, and base Luck by 1.</string>
+
+    <string name="lost_age_name_15">Waft</string>
+    <string name="lost_age_element_15">Jupiter</string>
+    <string name="lost_age_flavor_15">Calm a foe with soothing scents</string>
+    <string name="lost_age_location_15">Kibombo Mountains, requires Frost</string>
+    <string name="lost_age_catching_description_15">Waft is located near the northwestern exit of Kibombo Mountains, but
+    accessible only on your return trip back from Kibombo to the north when Piers has joined your party - only he can
+    cast the Frost Psynergy needed to reach it. Climb up the first three sets of stairs, go down to Frost the puddle into
+    an ice pillar, go up to climb up one more stairway, go right and down to hop across the ice pillar down and right, and cast Growth
+    and climb up it to reach the Djinni. Waft must be battled to be acquired.</string>
+    <string name="lost_age_battle_effect_15" formatted="false">When Waft is used in battle, a holographic image of a Jupiter
+    Djinni floats above the target and surrounds the target with a purple pillar of energy, dealing a Jupiter-based attack
+    equal in power to the user\'s normal physical attack with an additional 40 damage points added to the result, and there is then a chance that the target will be afflicted with Sleep.</string>
+    <string name="lost_age_set_bonus_15">When set, Waft increases the Adept\'s base HP by 11 and base Attack by 4.</string>
+
+    <string name="lost_age_name_16">Char</string>
+    <string name="lost_age_element_16">Mars</string>
+    <string name="lost_age_flavor_16">Paralyze foes with a strong blow</string>
+    <string name="lost_age_location_16">Madra, requires the Healing Fungus</string>
+    <string name="lost_age_catching_description_16">Char is in the possession of a pair of residents living in the two-story
+    residential house in Madra, visible in a fenced-in area on the second floor. To get it into your collection, though, you
+    first have to have collected the Healing Fungus from the Gondowan Cliffs (this item is accessible by casting Frost on a
+    puddle over there and using the resulting pillar as a hopping step). Then present the Healing Fungus to the old man, and a
+    short cutscene will have them give it to you as a "pet" in exchange.</string>
+    <string name="lost_age_battle_effect_16" formatted="false">When Char is used in battle, a holographic image of a Mars Djinni
+    projects a red stream of grainy energy at the target, and the target is hit with red static electricity as it is buffeted.
+    It deals a Mars-based attack equal in power to the user\'s normal physical attack with an additional 50 damage points added
+    to the result. There is then a chance that the target will be afflicted by Stun.</string>
+    <string name="lost_age_set_bonus_16">When set, Char increases the Adept\'s base HP by 9, base Attack by 2, base Agility by 2, and base Luck by 1.</string>
+
+    <string name="lost_age_name_17">Mud</string>
+    <string name="lost_age_element_17">Venus</string>
+    <string name="lost_age_flavor_17">Slow a foe with sticky mud</string>
+    <string name="lost_age_location_17">Gabomba Catacombs</string>
+    <string name="lost_age_catching_description_17">Mud is located in the Gabomba Catacombs. To reach it, in the first grass-covered
+    room you climb down into, go up so that you\'re in the semi-enclosed area between rocks below the mass of grass just to the left
+    of the elevated area you climb down from. Cast Cyclone here and you will automatically be transported through a "cyclone ground
+    portal" hidden within the leaves above, and you will be dropped into the floor below right next to Mud\'s position. Save, then
+    battle Mud to earn out.</string>
+    <string name="lost_age_battle_effect_17" formatted="false">When Mud is used in battle, the user lobs mounds of orange mud at the
+    positions of each member of the enemy party. All enemies\' agility ratings are temporarily lowered down to 50%, the lowest value
+    the Agility rating can be debuffed down to. This is identical to the effect of the Venus Djinni Vine in The Lost Age.</string>
+    <string name="lost_age_set_bonus_17">When set, Mud increases the Adept\'s base HP by 10, base PP by 4, and base Agility by 3.</string>
+
+    <string name="lost_age_name_18">Flower</string>
+    <string name="lost_age_element_18">Venus</string>
+    <string name="lost_age_flavor_18">Refresh allies and restore HP</string>
+    <string name="lost_age_location_18">Taopo Swamp</string>
+    <string name="lost_age_catching_description_18">Flower is located in Taopo Swamp, and is pretty much the "main reward of interest"
+    of the section of the swamp\'s caves it is located in (whereas a piece of Star Dust is the main reward of interest in the other
+    main section of the caves). When you see it, it is standing unreachable at the edge of an abyss with an air spout on the cave wall
+    above it. On either side of it is an earth pillar that can be pushed in front of an air spout. When both earth pillars are covering
+    an air spout each, Flower will be blown off the edge and fall to the floor below. To properly follow it, slide down the second
+    cliff slide to the right of Flower\'s position. It must be battled to be obtained, though definitely save before trying to get it.</string>
+    <string name="lost_age_battle_effect_18" formatted="false">When Flower\'s battle effect is used, all currently alive and battling
+    Adepts have their HP restored by 30% of their respective maximum HP values.</string>
+    <string name="lost_age_set_bonus_18">When set, Flower increases the Adept\'s base HP by 12 and base PP by 4.</string>
+
+    <string name="lost_age_name_19">Meld</string>
+    <string name="lost_age_element_19">Venus</string>
+    <string name="lost_age_flavor_19">Launch a powerful team strike</string>
+    <string name="lost_age_location_19">Islet Cave</string>
+    <string name="lost_age_catching_description_19">Meld is found in Islet Cave, in the immediately accessible portion of it as opposed
+    to the later portion accessible only with the Teleport Psynergy at the end of the game. Getting to the optional dungeon to begin
+    with is complex in and of itself, making Meld essentially the "main reward" for first reaching Islet Cave. In the right watery
+    room with rolling logs, after you roll right, simply go down to the horizontal log below and roll it up to Meld\'s position at the
+    top of the area. It must be battled.</string>
+    <string name="lost_age_battle_effect_19" formatted="false">Meld\'s battle effect is unique: Visually, it appears as the user and
+    one of the other currently active party members attacking a target together. The Adept that is chosen to be the "second attacker"
+    alongside the user is the Adept with the highest Attack rating other than the user. The damage calculation is based mostly on the
+    "second attacker"; it is the second attacker\'s attack that is used as the base for the damage, and it is the second attacker\'s
+    Venus power rating that is applied for elemental resistance calculations. However, during the attack the second attacker\'s Attack
+    rating is treated as though it has additional attack rating equal to 25% of the user\'s own attack rating (meaning that 25% of the
+    Meld user\'s own attack rating is the only contribution to the attack that Meld actually causes). If the user is the only currently
+    alive Adept of the party members and uses Meld, the user will merely strike by itself and deal a Venus-based attack equal in power
+    to the user\'s normal physical attack increased by 25%.</string>
+    <string name="lost_age_set_bonus_19">When set, Meld increases the Adept\'s base HP by 9, base Agility by 4, and base Luck by 1.</string>
+
+    <string name="lost_age_name_20">Steam</string>
+    <string name="lost_age_element_20">Mercury</string>
+    <string name="lost_age_flavor_20">Increase all allies\' elemental strength</string>
+    <string name="lost_age_location_20">Aqua Rock</string>
+    <string name="lost_age_catching_description_20">Steam is located in the interior portion of the Aqua Rock dungeon, placed at the end
+    of one stretch below a moai statue that spouts flowing water that prevents you from running up to reach it. You need to acquire the
+    dungeon\'s Parch Psynergy first. Then climb up the right ladder and go up until you\'re just to the right of the top of the moai
+    statue, and cast Parch on it. The flowing water will disappear. Climb down and walk up to Steam\'s position and battle it in order
+    to earn it.</string>
+    <string name="lost_age_battle_effect_20" formatted="false">When Steam is used in battle, all currently active and alive Adepts get
+    buffed with an additional 40 resistance points to all their resistances.</string>
+    <string name="lost_age_set_bonus_20">When set, Steam increases the Adept\'s base HP by 10 and base Attack by 5.</string>
+
+    <string name="lost_age_name_21">Wheeze</string>
+    <string name="lost_age_element_21">Jupiter</string>
+    <string name="lost_age_flavor_21">Poison a foe as you strike</string>
+    <string name="lost_age_location_21">World Map, southwest of Tundaria Tower</string>
+    <string name="lost_age_catching_description_21">Wheeze is a Djinni that is randomly encountered in a specific area of the
+    overworld that otherwise appears to be pointless scenery. Thus, it is almost always missed by players playing the game the
+    first time without any outside information. The battle with Wheeze may ensue in place of a random battle in the pictured area
+    that is the southwest-most explorable area of the continent of Tundaria, directly southwest of Tundaria Tower.</string>
+    <string name="lost_age_battle_effect_21" formatted="false">When Wheeze is used in battle, the user leaps forward to strongly
+    strike the target, and a thick array of glowing purple images of strange, blobby ghostlike creatures is exuded upon impact.
+    It deals a Jupiter-based attack equal in power to the user\'s normal physical attack with an additional 50 damage points
+    added to the result, and there is then a chance that the target will be afflicted with Deadly Poison.</string>
+    <string name="lost_age_set_bonus_21">When set, Wheeze increases the Adept\'s base HP by 9, base PP by 3, and base Attack by 5.</string>
+
+    <string name="lost_age_name_22">Reflux</string>
+    <string name="lost_age_element_22">Mars</string>
+    <string name="lost_age_flavor_22">Counter an enemy\'s attack</string>
+    <string name="lost_age_location_22">Tundaria Tower</string>
+    <string name="lost_age_catching_description_22">Reflux is found in Tundaria Tower, in a sliding-ice puzzle room you drop into.
+    The room itself is reached when you get to a room with three stairwells going up; go up the center bottom stairwell and proceed
+    to this room. Then from where you drop into, slide left, up, right, up, left, down, right, up, and right to bump into Reflux,
+    then slide right so that you can then battle and acquire it.</string>
+    <string name="lost_age_battle_effect_22" formatted="false">When Reflux is used in battle, the user is affected for the entire
+    turn by a unique effect which has the "always strikes first" property; the user does nothing for the rest of the turn unless
+    the user sustains some form of damage from an enemy\'s action, in which case the user will automatically counter attack with a
+    visual taking the form of a glowing red, ellipsoid portal of sorts briefly manifesting and a holographic image of a Mars Djinni
+    shooting out to collide with the offender like a bullet. This counts as a Mars-based attack equal in power to the user\'s normal
+    physical attack.</string>
+    <string name="lost_age_set_bonus_22">When set, Reflux increases the Adept\'s base HP by 9, base Defense by 3, and base Luck by 2.</string>
+
+    <string name="lost_age_name_23">Coal</string>
+    <string name="lost_age_element_23">Mars</string>
+    <string name="lost_age_flavor_23">Rally your allies to boost agility</string>
+    <string name="lost_age_location_23">Izumo, requires the Dancing Idol</string>
+    <string name="lost_age_catching_description_23">Coal is acquired in a cutscene in Izumo. You first have to have completed the Gaia
+    Rock dungeon, including defeating the Serpent, then triggered a lengthy story cutscene in Izumo with LadyUzume, Susa, and Kushinada.
+    Following that, you may present the Dancing Idol key item that you had found and made use of in Gaia Rock to Uzume, and through
+    another cutscene she exchanges Coal - a pet that has apparently become very dear to her - for the dancing doll of Mt. Mikage.</string>
+    <string name="lost_age_battle_effect_23" formatted="false">When Coal is used in battle, all currently active and alive Adepts get
+    their Agility ratings temporarily buffed to +100%, the maximum agility bonus possible. It doubles everyone\'s speed, in other words.</string>
+    <string name="lost_age_set_bonus_23">When set, Coal increases the Adept\'s base HP by 11, base PP by 3, and base Agility by 3.</string>
+
+    <string name="lost_age_name_24">Haze</string>
+    <string name="lost_age_element_24">Jupiter</string>
+    <string name="lost_age_flavor_24">Hide away to avoid damage</string>
+    <string name="lost_age_location_24">Apoji Islands, requires Sand</string>
+    <string name="lost_age_catching_description_24">Haze is located in Apojii Islands, in the right area that is the edge of Gaia Falls.
+    To get to its position at a ledge hanging over the literal end of the world, you need to have acquired the Sand Psynergy earned at
+    Gaia Rock. Then in the town area, walk right along the beach until you get to a series of rocks, and cast Sand to bypass the rocks.
+    Cross over in to the next screen upon the shallow water, go down, and perform what might appear to be suicide - jumping down over
+    the waterfall and off the edge of the world. You land on a small ledge directly below you, thankfully. Go upward into a small cave
+    area, and cast Whirlwind on the third of four bushes; the entrance revealed directly leads you to the Djinni for you to collect.
+    Go back to the cave area, and go out of the southeast exit and cast the Lash Psynergy on the coiled rope to let yourself back
+    onto land.</string>
+    <string name="lost_age_battle_effect_24" formatted="false">When Haze\'s battle effect is used, a unique illusory effect surrounds
+    the targeted Adept, and the Adept is suddenly turned nearly invisible, represented only by a white outline of the target\'s normal
+    combat pose in motion, while the game reports that the Adept "vanishes into thin air!". For the rest of this turn, the Adept cannot
+    be affected by any action or damage against it by any enemy. This effect has the "always hits first" property which makes it the
+    first used action in a given turn regardless of the user\'s agility, though if multiple units use similar increased-priority effects,
+    the one with the higher agility goes first.</string>
+    <string name="lost_age_set_bonus_24">When set, Haze increases the Adept\'s base HP by 10, base Defense by 2, base Agility by 3, and base Luck by 2.</string>
+
+    <string name="lost_age_name_25">Rime</string>
+    <string name="lost_age_element_25">Mercury</string>
+    <string name="lost_age_flavor_25">Seal a foe\'s Psynergy</string>
+    <string name="lost_age_location_25">Ancient Lemuria</string>
+    <string name="lost_age_catching_description_25">Rime is found in Ancient Lemuria, the sublocation near the city of Lemuria reachable
+    by the boat and the Grind Psynergy. It is hidden in the southwest-possible patch of grass that you can\'t even reach physically.
+    Standing two tiles to the right of it, cast Cyclone, and Rime will suddenly appear and jump into the lone statue in the center of
+    the screen. Then use the Tremor Psynergy while facing the now-shaking Statue to make Rime appear again, and you can now collect it.</string>
+    <string name="lost_age_battle_effect_25" formatted="false">When Rime is used in battle, a unique holographic visual of
+    two intersecting blue symbols apply to the target, and the target\'s Psynergy is temporarily sealed. This effect applies
+    with full accuracy compared to the Bind Psynergy that often misses.</string>
+    <string name="lost_age_set_bonus_25">When set, Rime increases the Adept\'s base HP by 10 and base PP by 6.</string>
+
+    <string name="lost_age_name_26">Core</string>
+    <string name="lost_age_element_26">Mars</string>
+    <string name="lost_age_flavor_26">Strike through an enemies defense</string>
+    <string name="lost_age_location_26">World Map, west of Contigo</string>
+    <string name="lost_age_catching_description_26">Core is a Djinni that is randomly encountered in a specific area of the overworld
+    that otherwise appears to be pointless scenery. Thus, it is very often missed by players playing the game the first time without
+    any outside information. The battle with Core may ensue in place of a random battle in the pictured area in the center of the
+    continent of Atteka, geographically west of Contigo and south of Jupiter Lighthouse but only reachable by docking on the west beach.
+    It then must be defeated to be acquired.</string>
+    <string name="lost_age_battle_effect_26" formatted="false">When Core is used in battle, a holographic image of a Mars Djinni
+    surrounds itself with a fully-3D special effect resembling a fiery sphere, and it pilots itself into the targeted enemy. The
+    target is hit by a Mars-based attack equal in power to the user\'s normal physical attack with an additional 40 damage points
+    added to the result. There is a chance that when the attack hits, only 50% of the target\'s current Defense rating is applied,
+    sharply increasing Core\'s damage.</string>
+    <string name="lost_age_set_bonus_26">When set, Core increases the Adept\'s base HP by 8, base Attack by 4, and base Defense by 2.</string>
+
+    <string name="lost_age_name_27">Salt</string>
+    <string name="lost_age_element_27">Venus</string>
+    <string name="lost_age_flavor_27">Restore allies\' status tu normal</string>
+    <string name="lost_age_location_27">Contigo</string>
+    <string name="lost_age_catching_description_27">Salt is located in the town of Contigo, very near the bottom entrance. It is
+    located just to the right of the entrance, in the exact center of a large patch of grass. Despite how easy it is to get when
+    one knows it\'s there, players playing without any outside information very often miss this Djinni because the first instinct
+    with grass groups like this is to use Cyclone to blow them away. As a matter of fact, Salt is automatically acquired by casting
+    Scoop in the one bare spot in the center of the grass. Unlike other items specifically buried in the ground and findable with
+    Scoop, however, the Reveal Psynergy will not even indicate Salt\'s presence in the ground with a telltale glowing spot.</string>
+    <string name="lost_age_battle_effect_27" formatted="false">When Salt is used in battle, all status ailments from all current battling
+    Adepts are removed, including the likes of haunt.</string>
+    <string name="lost_age_set_bonus_27">When set, Salt increases the Adept\'s base HP by 9, base PP by 5, and base Luck by 1.</string>
+
+    <string name="lost_age_name_28">Petra</string>
+    <string name="lost_age_element_28">Venus</string>
+    <string name="lost_age_flavor_28">Turn a foe to stone</string>
+    <string name="lost_age_location_28">World Map, northeast of Shaman Village</string>
+    <string name="lost_age_catching_description_28">Petra is a Djinni that is randomly encountered in a specific area of the overworld
+    that otherwise appears to be pointless scenery. Thus, it is very often missed by players playing the game the first time without
+    any outside information. The battle with Petra may ensue in place of a random battle in the pictured area in northeast Hesperia in
+    a vertical "V"-shaped stretch of forest; this region is most easily reached by sailing the ship into the river opening on the
+    northeastern tip of the landmass. Petra then must be battled to be acquired.</string>
+    <string name="lost_age_battle_effect_28" formatted="false">When Petra\'s battle effect is used, a holographic orange image of a
+    Venus Djinni projects a stream of orange, gaseous energy at the target, causing the target to be "unable to move" for one of its
+    actions this turn (meaning the enemy cannot attack at all this turn if it can only act once per turn, whereas a boss that can act
+    twice a turn can only act once a turn). This acts first in battle regardless of the Agility ratings of the user and the target,
+    and it shares its priority with other "acts first" moves.</string>
+    <string name="lost_age_set_bonus_28">When set, Petra increases the Adept\'s base HP by 11 and base Defense by 3.</string>
+
+    <string name="lost_age_name_29">Tinder</string>
+    <string name="lost_age_element_29">Mars</string>
+    <string name="lost_age_flavor_29">Revive a downed ally</string>
+    <string name="lost_age_location_29">Hesperia Settlement</string>
+    <string name="lost_age_catching_description_29">Tinder is located in Hesperia Settlement in the far western region of Hesperia.
+    Cast Growth on the plant to the left, then at the top of the area where there is a wooden crate, push it off the left hole in the
+    fence below. (Note that it is possible to push the crate off the right hole so that it drops onto Tinder and traps it, causing the
+    box to shake similar to what can happen in Kibombo Mountains; you\'ll have to leave and reenter so that the puzzle resets itself if
+    that happens, though.) From there, press the box right so that it falls further down, then use Move while standing below it to move
+    it one step further right. You are now able to hop onto the top of the box and reach the series of wall ladders that connects to
+    Tinder\'s ledge, as well as the cave on the opposite side containing a chest with 166 coins.</string>
+    <string name="lost_age_battle_effect_29" formatted="false">When Tinder is used in battle, a targeted downed Adept is surrounded
+    by a particularly elaborate visual of glowing red holographic images of avian pinions falling onto the target. The down Adept
+    is revived and fully cured to maximum HP without any inaccuracy, just as though it is the Revive Psynergy without the PP cost.
+    It is an upgraded version of Spark and similar reviving Djinn from the original Golden Sun.</string>
+    <string name="lost_age_set_bonus_29">When set, Tinder increases the Adept\'s base HP by 12 and base PP by 5.</string>
+
+    <string name="lost_age_name_30">Gel</string>
+    <string name="lost_age_element_30">Mercury</string>
+    <string name="lost_age_flavor_30">Weaken a foe\'s attack</string>
+    <string name="lost_age_location_30">Kalt Island</string>
+    <string name="lost_age_catching_description_30">Gel is located in Kalt Island, immediately visible as soon as you enter the
+    location. To get to it, first enter the frozen river, slide left, down, right, up, left, up, right, up, left, up, right, up,
+    left, down, and left. Climb up the ladder and cast Lash on the coiled rope, and you are led to Gel easily for collection.</string>
+    <string name="lost_age_battle_effect_30" formatted="false">When Gel is used in battle, the user deals a Mercury-based attack equal
+    in power to the user\'s normal physical attack increased by 50%. There is then a chance that the target\'s Attack rating is
+    lowered by 25%. Note that attack-dropping effects may be stacked to a maximum of -50%.</string>
+    <string name="lost_age_set_bonus_30">When set, Gel increases the Adept\'s base HP by 9, base Attack by 5, and base Agility by 2.</string>
+
+    <!-- Djinn List -->
+    <string name="title_activity_djinn_list">Djinn List</string>
+
+    <!-- Djinn Detail -->
+    <string name="title_activity_djinni_detail">Djinni Detail</string>
+    <string name="djinni_detail_how_to_obtain">How to Obtain</string>
+    <string name="djinni_detail_battle_effect">Battle Effect</string>
+    <string name="djinni_detail_label_set_bonus">Set Bonus</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

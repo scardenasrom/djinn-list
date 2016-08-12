@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_primary_dark"
+    android:padding="@dimen/medium_spacing"
+    tools:context="com.example.scardenas.djinnlist.ui.MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/main_image_view_golden_sun"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:layout_margin="@dimen/medium_spacing"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_golden_sun"
+        />
+
+    <ImageView
+        android:id="@+id/main_image_view_the_lost_age"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:layout_margin="@dimen/medium_spacing"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo_golden_sun_the_lost_age"
+        />
+
+</LinearLayout>

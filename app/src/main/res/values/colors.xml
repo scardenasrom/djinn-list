@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#78909C</color>
+    <color name="color_primary_dark">#455A64</color>
+    <color name="color_accent">#FFC400</color>
+
+    <color name="venus_primary">#4E342E</color>
+    <color name="venus_secondary">#8D6E63</color>
+    <color name="mars_primary">#C62828</color>
+    <color name="mars_secondary">#EF5350</color>
+    <color name="jupiter_primary">#512DA8</color>
+    <color name="jupiter_secondary">#7E57C2</color>
+    <color name="mercury_primary">#1565C0</color>
+    <color name="mercury_secondary">#2196F3</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_semitransparent">#80000000</color>
+</resources>

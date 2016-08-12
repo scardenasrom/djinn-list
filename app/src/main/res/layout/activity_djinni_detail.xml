@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.scardenas.djinnlist.ui.DjinniDetailActivity"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/djinni_detail_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_height"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/djinni_detail_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="@dimen/xxlarge_spacing"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            >
+
+            <ImageView
+                android:id="@+id/djinni_detail_screenshot_parallax"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="parallax"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/gradient"
+                />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/djinni_detail_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:titleMarginStart="@dimen/xxlarge_spacing"
+                />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_djinni_detail" />
+
+    <ImageView
+        android:id="@+id/djinni_detail_image_view_floating_left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="@dimen/xxlarge_spacing"
+        android:elevation="20dp"
+        android:scaleType="centerInside"
+        app:layout_anchor="@id/djinni_detail_app_bar"
+        app:layout_anchorGravity="bottom|start"
+        app:paddingStart="@dimen/xxlarge_spacing"
+        />
+
+    <ImageView
+        android:id="@+id/djinni_detail_image_view_floating_right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="@dimen/xxlarge_spacing"
+        android:elevation="20dp"
+        android:scaleType="centerInside"
+        app:layout_anchor="@id/djinni_detail_app_bar"
+        app:layout_anchorGravity="bottom|end"
+        app:paddingEnd="@dimen/xxlarge_spacing"
+        />
+
+</android.support.design.widget.CoordinatorLayout>
