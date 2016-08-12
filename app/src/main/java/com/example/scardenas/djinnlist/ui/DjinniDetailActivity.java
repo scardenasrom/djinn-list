@@ -49,8 +49,10 @@ public class DjinniDetailActivity extends BaseActivity {
     private PreferenceManager preferenceManager;
     private List<Djinni> djinniList;
 
-    int[] screenshots = new int[28];
-    int[] locationScreenshots = new int[28];
+    int[] goldenSunScreenshots = new int[28];
+    int[] goldenSunLocationScreenshots = new int[28];
+    int[] lostAgeScreenshots = new int[30];
+    int[] lostAgeLocationScreenshots = new int[30];
 
     boolean caught;
 
@@ -79,24 +81,24 @@ public class DjinniDetailActivity extends BaseActivity {
             case GOLDEN_SUN:
                 TypedArray screenshotsTempGS = getResources().obtainTypedArray(R.array.golden_sun_screenshots);
                 for (int i = 0; i < screenshotsTempGS.length(); i++) {
-                    screenshots[i] = screenshotsTempGS.getResourceId(i, -1);
+                    goldenSunScreenshots[i] = screenshotsTempGS.getResourceId(i, -1);
                 }
                 screenshotsTempGS.recycle();
                 TypedArray locationsTempGS = getResources().obtainTypedArray(R.array.golden_sun_location_screens);
                 for (int i = 0; i < locationsTempGS.length(); i++) {
-                    locationScreenshots[i] = locationsTempGS.getResourceId(i, -1);
+                    goldenSunLocationScreenshots[i] = locationsTempGS.getResourceId(i, -1);
                 }
                 locationsTempGS.recycle();
                 break;
             case LOST_AGE:
                 TypedArray screenshotsTempLA = getResources().obtainTypedArray(R.array.lost_age_screenshots);
                 for (int i = 0; i < screenshotsTempLA.length(); i++) {
-                    screenshots[i] = screenshotsTempLA.getResourceId(i, -1);
+                    lostAgeScreenshots[i] = screenshotsTempLA.getResourceId(i, -1);
                 }
                 screenshotsTempLA.recycle();
                 TypedArray locationsTemp = getResources().obtainTypedArray(R.array.lost_age_location_screens);
                 for (int i = 0; i < locationsTemp.length(); i++) {
-                    locationScreenshots[i] = locationsTemp.getResourceId(i, -1);
+                    lostAgeLocationScreenshots[i] = locationsTemp.getResourceId(i, -1);
                 }
                 locationsTemp.recycle();
                 break;
@@ -106,8 +108,16 @@ public class DjinniDetailActivity extends BaseActivity {
 
     private void configureVisuals() {
         configureCaughtBox();
-        imageViewParallaxScreenshot.setImageDrawable(getResources().getDrawable(screenshots[djinni.getOrder()-1]));
-        imageViewLocationScreen.setImageDrawable(getResources().getDrawable(locationScreenshots[djinni.getOrder()-1]));
+        switch (gameName) {
+            case GOLDEN_SUN:
+                imageViewParallaxScreenshot.setImageDrawable(getResources().getDrawable(goldenSunScreenshots[djinni.getOrder()-1]));
+                imageViewLocationScreen.setImageDrawable(getResources().getDrawable(goldenSunLocationScreenshots[djinni.getOrder()-1]));
+                break;
+            case LOST_AGE:
+                imageViewParallaxScreenshot.setImageDrawable(getResources().getDrawable(lostAgeScreenshots[djinni.getOrder()-1]));
+                imageViewLocationScreen.setImageDrawable(getResources().getDrawable(lostAgeLocationScreenshots[djinni.getOrder()-1]));
+                break;
+        }
         textViewFlavor.setText(djinni.getFlavor());
         textViewHowToObtain.setText(djinni.getCatchingDescription());
         textViewBattleEffect.setText(djinni.getBattleEffect());
