@@ -106,7 +106,7 @@
     <string name="golden_sun_battle_effect_8">When Sleet is used in battle, an image of a Mercury Djinni projects a stream of icy shards at the target, dealing
     a Mercury-based attack equal in power to the user\'s normal physical attack with an additional 30 damage points added to the result. There is then a chance
     that the target\'s Attack rating will be temporarily reduced by 25%.</string>
-    <string name="golden_sun_set_bonus_8"></string>
+    <string name="golden_sun_set_bonus_8">When set, Sleet increases the Adept\'s base HP by 12, base Attack by 3, and base Luck by 1.</string>
 
     <string name="golden_sun_name_9">Zephyr</string>
     <string name="golden_sun_element_9">Jupiter</string>
@@ -118,7 +118,7 @@
     be battled to be obtained.</string>
     <string name="golden_sun_battle_effect_9">When Zephyr is used in battle, all currently active and alive Adepts get their Agility ratings
     temporarily buffed to +100%, the maximum agility bonus possible. It doubles everyone\'s speed, in other words.</string>
-    <string name="golden_sun_set_bonus_9"></string>
+    <string name="golden_sun_set_bonus_9">When set, Zephyr increases the Adept\'s base HP by 10, base PP by 3, base Agility by 2, and base Luck by 1.</string>
 
     <string name="golden_sun_name_10">Quartz</string>
     <string name="golden_sun_element_10">Venus</string>
@@ -130,7 +130,7 @@
     go down and left to reach the Djinni. It must be battled to be acquired.</string>
     <string name="golden_sun_battle_effect_10" formatted="false">When Quartz is used in battle, a targeted downed party member has a 50% chance to be revived, with
     their HP restored to 50% of their maximum HP meter.</string>
-    <string name="golden_sun_set_bonus_10"></string>
+    <string name="golden_sun_set_bonus_10">When set, Quartz increases the Adept\'s base HP by 10, base PP by 3, and base Agility by 3.</string>
 
     <string name="golden_sun_name_11">Mist</string>
     <string name="golden_sun_element_11">Mercury</string>
@@ -142,7 +142,7 @@
     in front of, and use Frost on the resultant puddle to form a pillar you can hop across to reach the Djinni to the right.</string>
     <string name="golden_sun_battle_effect_11">When Mist is used in battle, the user deals an attack that lets loose a white vaporous cloud on impact,
     dealing a Mercury-based attack equal in power to the user\'s normal physical attack, increased by 30%. The target may be afflicted with Sleep.</string>
-    <string name="golden_sun_set_bonus_11"></string>
+    <string name="golden_sun_set_bonus_11">When set, Mist increases the Adept\'s base HP by 11 and base Attack by 4.</string>
 
     <string name="golden_sun_name_12">Corona</string>
     <string name="golden_sun_element_12">Mars</string>
@@ -154,7 +154,7 @@
     parallel to the Mogall Forest region in Angara, in the pictured "island" north of Xian, and Corona then, of course, must be battled to be acquired.</string>
     <string name="golden_sun_battle_effect_12" formatted="false">When Corona\'s battle effect is used, all currently active and alive Adepts get buffed
     with a 25% temporary increase to their respective defense ratings.</string>
-    <string name="golden_sun_set_bonus_12"></string>
+    <string name="golden_sun_set_bonus_12">When set, Corona increases the Adept\'s base HP by 12, base PP by 3, base Defense by 3, and base Luck by 1.</string>
 
     <string name="golden_sun_name_13">Spritz</string>
     <string name="golden_sun_element_13">Mercury</string>
@@ -166,95 +166,171 @@
     pointing right points left. Hop into the mine cart and ride it twice in a row, and you will be dropped off to Spritz\' position.</string>
     <string name="golden_sun_battle_effect_13" formatted="false">When Spritz is used in battle, all currently alive and battling Adepts have their HP
     restored by 30% of their respective maximum HP values.</string>
-    <string name="golden_sun_set_bonus_13"></string>
+    <string name="golden_sun_set_bonus_13">When set, Spritz increases the Adept\'s base HP by 8, base PP by 4, and base Agility by 3.</string>
 
     <string name="golden_sun_name_14">Smog</string>
     <string name="golden_sun_element_14">Jupiter</string>
-    <string name="golden_sun_flavor_14"></string>
+    <string name="golden_sun_flavor_14">Veil a foe\'s vision in smoke</string>
     <string name="golden_sun_location_14">Lamakan Desert</string>
-    <string name="golden_sun_catching_description_14"></string>
-    <string name="golden_sun_battle_effect_14"></string>
-    <string name="golden_sun_set_bonus_14"></string>
+    <string name="golden_sun_catching_description_14">Smog is located in the second, large area of Lamakan Desert, but it cannot be
+    seen or interacted with unless you cast the Reveal Psynergy in its vicinity. When you enter the screen from the lower right, first
+    go immediately upward to a circle of stones that contains an oasis when you cast Reveal near it. From there, go northwest to a
+    conjoined pair of circles of stones. The right circle contains an Ant Lion pit, while the left circle contains Smog.</string>
+    <string name="golden_sun_battle_effect_14">When Smog is used in battle, the user attacks the target and a vaporous blue cloud
+    is let loose on impact, dealing a Jupiter-based attack equal in power to the user\'s normal physical attack with an additional
+    60 damage points added to the result. There is then a chance that the target will be afflicted with Delusion.</string>
+    <string name="golden_sun_set_bonus_14">When set, Smog increases the Adept\'s base HP by 9 and base Attack by 3.</string>
 
     <string name="golden_sun_name_15">Vine</string>
     <string name="golden_sun_element_15">Venus</string>
-    <string name="golden_sun_flavor_15"></string>
+    <string name="golden_sun_flavor_15">Tangle foes to drop agility</string>
     <string name="golden_sun_location_15">World Map, west of Lamakan Desert</string>
-    <string name="golden_sun_catching_description_15"></string>
-    <string name="golden_sun_battle_effect_15"></string>
-    <string name="golden_sun_set_bonus_15"></string>
+    <string name="golden_sun_catching_description_15">Vine is a Djinni that is randomly encountered in a specific area of the
+    overworld that otherwise appears to be pointless scenery. Thus, it is very often missed by players playing the game the first time
+    without any outside information. The battle with Vine may ensue in place of a random battle in the circular "island" to the
+    immediate northwest of where you exit Lamakan Desert, led to by the upper of two bridges that are immediately visible. It can
+    also appear on the larger island just north of crescent shaped one. Furthermore, it may also appear on the strip of land north
+    of the exit between the mountains and the river.</string>
+    <string name="golden_sun_battle_effect_15" formatted="false">When Vine is used in battle, a group of wriggling green vines briefly sprout out of the
+    ground at the position of the enemy party. All enemies\' agility ratings are temporarily lowered down to 50%, the lowest value the
+    Agility rating can be debuffed down to.</string>
+    <string name="golden_sun_set_bonus_15">When set, it increases the Adept\'s base HP by 12, base PP by 4, base Defense by 3, and base Luck by 1.</string>
 
     <string name="golden_sun_name_16">Scorch</string>
     <string name="golden_sun_element_16">Mars</string>
-    <string name="golden_sun_flavor_16"></string>
+    <string name="golden_sun_flavor_16">Stun a foe with a blast attack</string>
     <string name="golden_sun_location_16">Kalay Tunnel</string>
-    <string name="golden_sun_catching_description_16"></string>
-    <string name="golden_sun_battle_effect_16"></string>
-    <string name="golden_sun_set_bonus_16"></string>
+    <string name="golden_sun_catching_description_16">Scorch is present in the portion of Kalay Tunnel accessible from the upper
+    right cave entrance in the main town area of Kalay as soon as you arrive to Kalay for the first time. Upon entering the tunnel
+    through the cave entrance concealed by a statue at the upper right of the town area, you are immediately in Scorch\'s vicinity.
+    Push the nearby statue all the way left so that it blocks the water flowing out of the wall, and simply climb to Scorch and
+    collect it.</string>
+    <string name="golden_sun_battle_effect_16">When Scorch is used in battle, the user attacks a target and produces a fiery
+    explosion upon impact, dealing a Mars-based attack equal in power to the user\'s normal physical attack with an additional
+    50 damage points added to the result. There is then a chance that the target will be afflicted by Stun.</string>
+    <string name="golden_sun_set_bonus_16">When set, Scorch increases the Adept\'s base HP by 8 and base Attack by 3.</string>
 
     <string name="golden_sun_name_17">Sap</string>
     <string name="golden_sun_element_17">Venus</string>
-    <string name="golden_sun_flavor_17"></string>
+    <string name="golden_sun_flavor_17">Attack a foe and steal HP</string>
     <string name="golden_sun_location_17">Vault</string>
-    <string name="golden_sun_catching_description_17"></string>
-    <string name="golden_sun_battle_effect_17"></string>
-    <string name="golden_sun_set_bonus_17"></string>
+    <string name="golden_sun_catching_description_17">Sap is present in the town of Vault, but the requirement to attain it is
+    quite involved and easy to unknowingly make mistakes about. First, in the town area, climb and make your way all the way to the
+    wooden watch tower at the north end of the town, and interact with the dangling bell next to the NPC; a hollow ringing noise will
+    prompt Sap to hop out of its hiding place in the nearby tree to an elevated area next to a cave exit. Then, go to the cemetery
+    where the dog is, cast Reveal, climb down the revealed ladder, and complete the Vault Cave optional dungeon. At the end of the
+    dungeon, you will exit out into the open out of said cave exit, and Sap will be sitting nearby in the spot you hounded it to,
+    ready to be collected. In other words, Sap is the "end reward" of the Vault Cave dungeon, but only if you remember to place it as
+    the dungeon\'s end reward first.</string>
+    <string name="golden_sun_battle_effect_17" formatted="false">When Sap is used in battle, the user strikes the target and siphons a glowing yellow
+    energy out of it, dealing a Venus-based attack equal in power to the user\'s normal physical attack with an additional 50 damage
+    points added to the result. Then the user\'s HP will be restored by an amount equal to 50% of the damage dealt to the target.
+    If the target dies, the user\'s HP is restored by half of the target\'s health before the attack.</string>
+    <string name="golden_sun_set_bonus_17">When set, Sap increases the Adept\'s base HP by 10, base Attack by 3, and base Luck by 1.</string>
 
     <string name="golden_sun_name_18">Kite</string>
     <string name="golden_sun_element_18">Jupiter</string>
-    <string name="golden_sun_flavor_18"></string>
+    <string name="golden_sun_flavor_18">Attack twice next round</string>
     <string name="golden_sun_location_18">Vale Cave</string>
-    <string name="golden_sun_catching_description_18"></string>
-    <string name="golden_sun_battle_effect_18"></string>
-    <string name="golden_sun_set_bonus_18"></string>
+    <string name="golden_sun_catching_description_18">Kite resides in the optional Vale Cave dungeon area. Right before reaching the
+    area it initially sits on in the cave, you open a chest containing the Halt Psynergy, and as soon as you approach Kite it flys
+    down into an area below. When you reach it, it prevents itself from being caught by flying around the series of rocks opposite
+    of yourself in tandem. When you are positioned exactly parallel of Kite, use your newfound Halt Psynergy to keep it in place so
+    you can run around and collect it.</string>
+    <string name="golden_sun_battle_effect_18" formatted="false">When Kite is used in battle, the targeted Adept will be granted two actions the next
+    turn instead of the normal one. The second action the affected Adept will take next turn will always be based on that Adept\'s
+    Agility divided by 2, for example, Ivan with an Agility of 400 and Garet with an Agility of 100, Ivan performs two normal attacks
+    and Garet performs one, both of Ivan\'s attacks will be performed before Garet performs his - unless the battle command taken
+    with that action is an effect that ordinarily goes first in a battle regardless of agility, such as the Mars Djinni Flash, in
+    which case the second action\'s priority decrease will not apply.</string>
+    <string name="golden_sun_set_bonus_18">When set, Kite increases the Adept\'s base HP by 8, base PP by 4, and base Agility by 3.</string>
 
     <string name="golden_sun_name_19">Ember</string>
     <string name="golden_sun_element_19">Mars</string>
-    <string name="golden_sun_flavor_19"></string>
+    <string name="golden_sun_flavor_19">Restore party PP with passion\'s flame</string>
     <string name="golden_sun_location_19">Tolbi</string>
-    <string name="golden_sun_catching_description_19"></string>
-    <string name="golden_sun_battle_effect_19"></string>
-    <string name="golden_sun_set_bonus_19"></string>
+    <string name="golden_sun_catching_description_19">Ember is found in the city of Tolbi, in the northeastmost corner of the main
+    town area. To get to it, exit out of Tolbi\'s south gate, but not so much that you\'ll exit onto the world map; instead, hug the
+    wall to the right and go behind the trees as you go right, then up, to an area where a small plant lies at the bottom of a wall.
+    Use the Growth Psynergy, then climb up to where there is a puddle and use Frost on it. Then retrace your steps back to the town\'s
+    front gate - again, making sure not to mistakenly exit the town area into the overworld, since that will reset the plant and the
+    ice pillar - and go to the inn at the upper right area of town. Step onto the top of the ice pillar and hop to the right to collect
+    Ember.</string>
+    <string name="golden_sun_battle_effect_19" formatted="false">When Ember is used in battle, Ember replenishes the PP meters of all
+    current battling Adepts by 7% of their respective maximum PP meters.</string>
+    <string name="golden_sun_set_bonus_19">When set, Ember increases the Adept\'s base HP by 9, base PP by 4, base Defense by 2, and base Agility by 2.</string>
 
     <string name="golden_sun_name_20">Hail</string>
     <string name="golden_sun_element_20">Mercury</string>
-    <string name="golden_sun_flavor_20"></string>
+    <string name="golden_sun_flavor_20">Freeze a foe to drop its defense</string>
     <string name="golden_sun_location_20">World Map, south of Altmiller Cave</string>
-    <string name="golden_sun_catching_description_20"></string>
-    <string name="golden_sun_battle_effect_20"></string>
-    <string name="golden_sun_set_bonus_20"></string>
+    <string name="golden_sun_catching_description_20">Hail is a Djinni that is randomly encountered in a specific area of the
+    overworld that otherwise appears to be pointless scenery. Thus, it is very often missed by players playing the game the first
+    time without any outside information. The battle with Hail may ensue in place of a random battle in the stretch of land to the
+    southwest of Altmiller Cave, possibly as soon as the player crosses the bridge.</string>
+    <string name="golden_sun_battle_effect_20">When Hail is used in battle, the lower half of the screen quickly gets overtaken by a
+    frozen "ocean" that blasts the enemy once from underneath, dealing a Mercury-based attack equal in power to the user\'s normal
+    physical attack with an additional 40 damage points added to the result. There is then a chance that the target\'s Defense rating
+    will be temporarily reduced by 25%.</string>
+    <string name="golden_sun_set_bonus_20">When set, Hail increases the Adept\'s base HP by 9, base Attack by 4, and base Luck by 1.</string>
 
     <string name="golden_sun_name_21">Ground</string>
     <string name="golden_sun_element_21">Venus</string>
-    <string name="golden_sun_flavor_21"></string>
+    <string name="golden_sun_flavor_21">Use gravity to hold a foe</string>
     <string name="golden_sun_location_21">Kalay Docks</string>
-    <string name="golden_sun_catching_description_21"></string>
-    <string name="golden_sun_battle_effect_21"></string>
-    <string name="golden_sun_set_bonus_21"></string>
+    <string name="golden_sun_catching_description_21">Ground is located at the top end of Kalay Docks, and is visible to players
+    entering Kalay Port for the first time - it cannot be had until later in the game, though. It can only be reached once you\'ve
+    sailed across the Karagol Sea and made it to the other side in Gondowan. Then, by going east from the entrance to Altmiller
+    Cave and traveling the stretch of land bordering the top of the Karagol Sea, reenter Kalay Docks from the top end, and you
+    will be right next to the Djinni, waiting to be collected.</string>
+    <string name="golden_sun_battle_effect_21">When Ground is used in battle, the user summons an array of energy spheres that slowly
+    gather into the target\'s position, causing the target to be "unable to move" for one of its actions this turn (meaning the enemy
+    cannot attack at all this turn if it can only act once per turn, whereas a boss that can act twice a turn can only act once a turn).
+    This acts first in battle regardless of the Agility ratings of the user and the target, and it shares its priority with other
+    "acts first" moves.</string>
+    <string name="golden_sun_set_bonus_21">When set, Ground increases the Adept\'s base HP by 9, base PP by 3, and base Agility by 3.</string>
 
     <string name="golden_sun_name_22">Squall</string>
     <string name="golden_sun_element_22">Jupiter</string>
-    <string name="golden_sun_flavor_22"></string>
+    <string name="golden_sun_flavor_22">Paralyze a foe with a storm</string>
     <string name="golden_sun_location_22">Altmiller Cave</string>
-    <string name="golden_sun_catching_description_22"></string>
-    <string name="golden_sun_battle_effect_22"></string>
-    <string name="golden_sun_set_bonus_22"></string>
+    <string name="golden_sun_catching_description_22">Squall is located in a lower floor in Altmiller Cave, visible behind a puzzle
+    in one room that is properly lit up. After climbing up the stairs below it, roll the vertical pillar right, roll the lower horizontal
+    pillar up, cast Frost on the puddle, roll the lower horizontal pillar back down, go around to the right side of the vertical pillar
+    and roll it left, and go up above the upper horizontal pillar and push it down. The Djinni now reachable nearby must be battled to be
+    obtained.</string>
+    <string name="golden_sun_battle_effect_22" formatted="false">When Squall is used in battle, the user attacks a target, and a purple bolt of
+    lightning strikes the target in tandem with the impact, dealing a Jupiter-based attack equal in power to the user\'s normal
+    physical attack increased by 40%. There is then a chance that the target will be afflicted by Stun.</string>
+    <string name="golden_sun_set_bonus_22">When set, Squall increases the Adept\'s base HP by 10, and base Attack by 5.</string>
 
     <string name="golden_sun_name_23">Tonic</string>
     <string name="golden_sun_element_23">Mercury</string>
-    <string name="golden_sun_flavor_23"></string>
+    <string name="golden_sun_flavor_23">Heal all party ailments</string>
     <string name="golden_sun_location_23">Lunpa Fortress</string>
-    <string name="golden_sun_catching_description_23"></string>
-    <string name="golden_sun_battle_effect_23"></string>
-    <string name="golden_sun_set_bonus_23"></string>
+    <string name="golden_sun_catching_description_23">Tonic is located in Lunpa Fortress, in a room connected to Donpa\'s bedroom that
+    is inaccessible the first time you sneak into and complete the optional dungeon. After defeatingToadonpa and letting Hammet be
+    brought back to Kalay, you are allowed to sneak back into Lunpa Fortress. Make your way all the way back to Donpa\'s bedroom again,
+    and in a cutscene Donpa will thank you for your help and let you enter a room to collect Tonic, which he claims is a creature he
+    "fought once long ago" - this seems to contradict the main plot in that the Djinn were only released into the world for the first
+    time at the beginning of the game, though it is possible Donpa encountered Tonic as soon as it was released and that it was "long"
+    since then in his perspective.</string>
+    <string name="golden_sun_battle_effect_23">When Tonic is used in battle, all status ailments from all current battling Adepts
+    are removed, including the likes of haunt.</string>
+    <string name="golden_sun_set_bonus_23">When set, Tonic increases the Adept\'s base HP by 8, base PP by 3, base Defense by 2, and base Luck by 2.</string>
 
     <string name="golden_sun_name_24">Flash</string>
     <string name="golden_sun_element_24">Mars</string>
-    <string name="golden_sun_flavor_24"></string>
+    <string name="golden_sun_flavor_24">Block damage to party with a firewall</string>
     <string name="golden_sun_location_24">Suhalla Desert</string>
-    <string name="golden_sun_catching_description_24"></string>
-    <string name="golden_sun_battle_effect_24"></string>
-    <string name="golden_sun_set_bonus_24"></string>
+    <string name="golden_sun_catching_description_24">Flash is located in the second main screen of Suhalla Desert, in its general
+    middle-left area. Before you climb down a short wall onto the sandy ground below, where you would be chased by the huge tornado
+    containing the Storm Lizard boss, cast Reveal to see a series of small black footsteps leading up to the left. Cast Reveal at
+    where they would end to show that there is an otherwise invisible earth pillar against a wall that you can hop across to the left.
+    Flash is in plain sight after that, and it must be defeated in battle to be acquired.</string>
+    <string name="golden_sun_battle_effect_24" formatted="false">When Flash is used in battle, all damage done to all current battling party members
+    is reduced by 90% for the duration of that turn, and this effect is always cast first regardless of the user\'s Agility.</string>
+    <string name="golden_sun_set_bonus_24">When set, Flash increases the Adept\'s base HP by 14, base PP by 3, and base Defense by 2.</string>
 
     <string name="golden_sun_name_25">Dew</string>
     <string name="golden_sun_element_25">Mercury</string>
