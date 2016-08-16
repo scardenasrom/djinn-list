@@ -74,8 +74,8 @@ public class MainActivity extends BaseActivity {
         String[] battleEffects = getResources().getStringArray(R.array.lost_age_djinn_battle_effects);
         String[] setBonus = getResources().getStringArray(R.array.lost_age_djinn_set_bonus);
         int[] fights = getResources().getIntArray(R.array.lost_age_djinn_fights);
-        List<Djinni> djinnList = new ArrayList<>(30);
-        for (int i = 0; i < 30; i++) {
+        List<Djinni> djinnList = new ArrayList<>(44);
+        for (int i = 0; i < 44; i++) {
             Djinni djinni = new Djinni();
             djinni.setOrder(i+1);
             djinni.setName(names[i]);

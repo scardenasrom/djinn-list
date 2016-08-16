@@ -51,8 +51,8 @@ public class DjinniDetailActivity extends BaseActivity {
 
     int[] goldenSunScreenshots = new int[28];
     int[] goldenSunLocationScreenshots = new int[28];
-    int[] lostAgeScreenshots = new int[30];
-    int[] lostAgeLocationScreenshots = new int[30];
+    int[] lostAgeScreenshots = new int[44];
+    int[] lostAgeLocationScreenshots = new int[44];
 
     boolean caught;
 

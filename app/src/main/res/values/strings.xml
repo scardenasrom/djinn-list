@@ -726,6 +726,235 @@
     lowered by 25%. Note that attack-dropping effects may be stacked to a maximum of -50%.</string>
     <string name="lost_age_set_bonus_30">When set, Gel increases the Adept\'s base HP by 9, base Attack by 5, and base Agility by 2.</string>
 
+    <string name="lost_age_name_31">Aroma</string>
+    <string name="lost_age_element_31">Jupiter</string>
+    <string name="lost_age_flavor_31">Restore eveveryone\'s PP</string>
+    <string name="lost_age_location_31">Shaman Village, after Trial Road</string>
+    <string name="lost_age_catching_description_31">Aroma is located in Shaman Village. First of all, it can only be obtained after
+    Trial Road is cleared because one of the buildings you need to go through is only unlocked for you then. After Trial Road, enter
+    the cubic building built into the side of a rocky ledge to the lower right of the main town area, and come out of its top door
+    and go right to the next screen. Position yourself below an earth pillar and cast Move to move it left one space so that it falls
+    down to create a hoppable piece. Return to the main town, enter Moapa\'s house, exit out of the bottom door, cast Lash on the
+    coiled rope, and the subsequent path will lead you to where you can hop across the earth pillar and claim Aroma.</string>
+    <string name="lost_age_battle_effect_31" formatted="false">When Aroma is used in battle, a holographic image of a Jupiter Djinni
+    surrounds the entire party in a sort of swirling purple, line-like energy, replenishing the PP meters of all current battling
+    Adepts by 10% of their respective maximum PP meters.</string>
+    <string name="lost_age_set_bonus_31">When set, Aroma increases the Adept\'s base HP by 11, base Agility by 3, and base Luck by 2.</string>
+
+    <string name="lost_age_name_32">Whorl</string>
+    <string name="lost_age_element_32">Jupiter</string>
+    <string name="lost_age_flavor_32">Take a deep breath, and strike!</string>
+    <string name="lost_age_location_32">Jupiter Lighthouse</string>
+    <string name="lost_age_catching_description_32">Whorl is located in Jupiter Lighthouse, specifically the right tower. In the
+    room where it is located is a puzzle where you are to move pillars into holes in the ground to fill up tiles of floor to connect
+    conduits for the Hover-based energy (similar to types of puzzles seen in Venus Lighthouse). Two such pillars are present,
+    one a "corner" pillar and one a "line" pillar. Get up to the Corner Pillar with Hover, and move it over to the hole in the ground
+    that the purple line of energy is feeding into, which causes the inactive hovering circle to the top center to be active. Use it
+    to get to the line pillar, and move it off down to the ground level. Hover to the Poundable pillar to the other right and Pound it,
+    ejecting the corner pillar from its slot in the ground. Now move the corner pillar to the lower left hole and the line pillar into
+    the lower center hole, which will allow the lower left hovering tile to become active. Use that to hover to Whorl\'s position,
+    save, and defeat it to acquire it. After that, simply use the lower left hovering tile to float to the upper left stairwell to
+    progress to the next floor (you do not need to redirect energy flow again for the sake of activating the top left hovering tile).</string>
+    <string name="lost_age_battle_effect_32" formatted="false">When Whorl is used in battle, a holographic image of a Jupiter Djinni
+    appears and sucks the target toward its position in midair for a moment using a reverse whirlwind of purple energy, before the
+    target falls back down to the ground. It deals a Jupiter-based attack equal in power to the user\'s normal physical attack with
+    an additional 40 damage points added to the result, provided its chance to instantly fell the target does not kick in.</string>
+    <string name="lost_age_set_bonus_32">When set, Whorl increases the Adept\'s base HP by 9, base Attack by 4, and base Defense by 2.</string>
+
+    <string name="lost_age_name_33">Shine</string>
+    <string name="lost_age_element_33">Mars</string>
+    <string name="lost_age_flavor_33">Dazzle foes and strike decisively</string>
+    <string name="lost_age_location_33">Contigo, requires Force</string>
+    <string name="lost_age_catching_description_33">Shine is hiding in the upper left hollow tree stump in Contigo, and is brought out
+    into the open via the Force Psynergy. The big potential snag to getting this Djinni is that the Orb of Force that provides the Force
+    Psynergy in the first place is only acquirable as an item in the inventory of Isaac\'s party when they join Felix\'s party late in
+    The Lost Age… provided any form of Password data transfer is in effect so as to register that the Orb of Force has been collected
+    from the previous game\'s Fuchin Falls Cave to begin with. The Orb of Force can otherwise be missed, or not present in Isaac\'s
+    party at all as a result of The Lost Age being played through without password data transfer at all; if the game file is saved
+    after Isaac\'s party joins but the Orb of Force is not present, it will be impossible to acquire Shine without a hacking device.</string>
+    <string name="lost_age_battle_effect_33" formatted="false">When Shine is used in battle, a holographic image of a Mars Djinni briefly
+    backs up while emitting several beams of light at various angles, and then charges through the target. The target is hit by a
+    Mars-based attack equal in power to the user\'s normal physical attack with an additional 60 damage points added to the result,
+    and then for each enemy on the enemy side (not just the target) there is a chance it will be afflicted with Delusion.</string>
+    <string name="lost_age_set_bonus_33">When set, Shine increases the Adept\'s base HP by 9, base Attack by 3, base Defense by 3, and base Agility by 2.</string>
+
+    <string name="lost_age_name_34">Geode</string>
+    <string name="lost_age_element_34">Venus</string>
+    <string name="lost_age_flavor_34">Strike with a clod of earth</string>
+    <string name="lost_age_location_34">Atteka Inlet, requires Lift</string>
+    <string name="lost_age_catching_description_34">Geode is hidden within the lower left part of Atteka Inlet where the boulder is, and
+    to have it appear you need to cast the Cyclone Psynergy - but to get to it, you need the Lift Psynergy, which you only get as part
+    of the inventory of Isaac\'s party when they join Felix\'s party late in The Lost Age. In Geode\'s case in particular, though, it
+    can be acquired very shortly after the reunion takes place because the game\'s plot progression dictates you go from Contigo to
+    Atteka Inlet right away. So, before going to the screen where your ship is, fetch Geode in the pictured area.</string>
+    <string name="lost_age_battle_effect_34" formatted="false">When Geode is used in battle, the entire background suddenly rolls
+    itself up into a 3D-sphere, and a holographic image of a Venus Djinni propels it into the target, where the sphere detonates
+    in a humongous, 3D explosion before the background reappears. It deals a Venus-based attack equal in power to the user\'s normal
+    physical attack increased by 90% - the highest consistent damage multiplier of all Djinn, and much greater than the damage
+    multipliers of its otherwise similar counterparts Flint and Echo.</string>
+    <string name="lost_age_set_bonus_34">When set, Geode increases the Adept\'s base HP by 12 and base Attack by 6.</string>
+
+    <string name="lost_age_name_35">Eddy</string>
+    <string name="lost_age_element_35">Mercury</string>
+    <string name="lost_age_flavor_35">Speed up Djinn recovery time</string>
+    <string name="lost_age_location_35">Shaman Village Cave, requires Lift</string>
+    <string name="lost_age_catching_description_35">Eddy is found in the main, large area of the Shaman Village Cave, where there
+    are various boulders between elevated ledges that may be Lifted. The proper way to reach it is to first enter the room from the
+    bottom end, then Lift the rightmost boulder. Go up, hop left, go down, and lift the boulder to the left of that. Return, then
+    Lift the left most boulder, and cast Frost on the puddle. You may now hop to where Eddy is, and when it tries to escape it will
+    be blocked by the second-to-right boulder. You must then battle it to acquire it.</string>
+    <string name="lost_age_battle_effect_35" formatted="false">When Eddy is used in battle, a holographic image of a Mercury Djinni
+    floats above the party and causes arrays of bubbles to be absorbed into each Adept. It has the unique effect of instantly causing
+    all of the current battling party members to go through one extra turn\'s worth of Djinn recovery time. The passing of a turn\'s
+    worth of Djinn recovery time that transpires at the end of a given turn is unaffected, meaning that two Djinn in Recovery on each
+    Adept will be re-Set this turn instead of just one when Eddy is used.</string>
+    <string name="lost_age_set_bonus_35">When set, Eddy increases the Adept\'s base HP by 9, base Agility by 3, and base Luck by 2.</string>
+
+    <string name="lost_age_name_36">Gasp</string>
+    <string name="lost_age_element_36">Jupiter</string>
+    <string name="lost_age_flavor_36">Call the Grim Reaper on your foes</string>
+    <string name="lost_age_location_36">Trial Road, requires Hover and Lift</string>
+    <string name="lost_age_catching_description_36">Gasp is located in the hidden area beyond the "goal line" screen of Trial Road.
+    It is only accessible after Isaac\'s party joins Felix\'s late in The Lost Age because it requires both the Hover Psynergy earned
+    upon completing the Trial Road contest and the Lift Psynergy Isaac\'s party brings with them. At the exterior screen of Trial Road
+    where the battle with Moapa and the two Knights took place, cast Hover on the glowing purple Hover tile, then cast Lift on the
+    boulder blocking the way to a secret area with lots of grass clumps and Gasp present. Along with looting the other aspects of the
+    area, go to either the top or the bottom of the lower left lake so that the Djinni is opposite yourself, cast Reveal to show a
+    platform in the center of the lake, and hop onto the platform to get Gasp pushed off to the side so that it can be engaged in
+    battle to be earned.</string>
+    <string name="lost_age_battle_effect_36" formatted="false">When Gasp is used in battle, a holographic image of a Jupiter Djinni
+    hovers shortly above the enemy party as a mass of ghosty, skeletal imagery morphs and bends through the party\'s position. All
+    enemies have a chance to be afflicted with the 7-turn Countdown condition. It is essentially the Curse Psynergy being cast on all
+    enemies at once.</string>
+    <string name="lost_age_set_bonus_36">When set, Gasp increases the Adept\'s base HP by 12 and base PP by 5.</string>
+
+    <string name="lost_age_name_37">Fury</string>
+    <string name="lost_age_element_37">Mars</string>
+    <string name="lost_age_flavor_37">Call forth wandering souls to attack</string>
+    <string name="lost_age_location_37">Magma Rock</string>
+    <string name="lost_age_catching_description_37">Fury is found in the second, middle floor of Magma Rock, located to the far left of
+    the lower horizontal hallway on an elevated platform. If you enter this hallway from the very tall black doorway to the right while
+    the magma level is down, simply go left and climb up to where Fury is and battle it to attain it.</string>
+    <string name="lost_age_battle_effect_37" formatted="false">When Fury is used in battle, a holographic image of a Mars Djinni floats
+    above the party and projects a wide, fast, and long wave of skull-faced orange spirits through the target, dealing a Mars-based
+    attack equal in power to the user\'s normal physical attack with an additional 70 damage points added to the result. There is then
+    a chance that the target will be afflicted with Haunt.</string>
+    <string name="lost_age_set_bonus_37">When set, Fury increases the Adept\'s base HP by 12 and base PP by 4.</string>
+
+    <string name="lost_age_name_38">Lull</string>
+    <string name="lost_age_element_38">Jupiter</string>
+    <string name="lost_age_flavor_38">Negotiate a temporary cease-fire</string>
+    <string name="lost_age_location_38">Loho, requires Magma Ball</string>
+    <string name="lost_age_catching_description_38">Lull is present on one of the stone rooftops in Loho. It can only be accessible
+    very late in The Lost Age because you need the Magma Ball collected at the end of the Magma Rock dungeon, which is itself only
+    accessible after Isaac\'s party joins Felix\'s late in the game. When you have the Magma Ball, simply use it while standing behind
+    the pointed cannon at the east end of town; after the wall it is pointed toward is removed and a cutscene transpires where the
+    cannon is installed onto your ship, simply climb up the vine and go to the lower left, and hop onto where Lull is to collect it.</string>
+    <string name="lost_age_battle_effect_38" formatted="false">When Lull is used in battle, a holographic effect of a Jupiter Djinni
+    floats above the battlefield and projects an elaborate, swirling ring-shaped array of musical note images. The turn immediately
+    ends; while all battle commands executed prior to Lull\'s usage this turn are unaffected, all of the battle commands that would have
+    followed Lull\'s usage otherwise simply do not happen.</string>
+    <string name="lost_age_set_bonus_38">When set, Lull increases the Adept\'s base HP by 11 and base PP by 6.</string>
+
+    <string name="lost_age_name_39">Mold</string>
+    <string name="lost_age_element_39">Venus</string>
+    <string name="lost_age_flavor_39">Strike a foe</string>
+    <string name="lost_age_location_39">Prox</string>
+    <string name="lost_age_catching_description_39">Mold is present in Prox, found near the end of the game. First, enter the frozen,
+    snowed-upon river and go up to the next screen under a bridge. Mold will be right in front of you; when you bump into it on the
+    sliding ice, it will adorably slide back and get buried underneath a pile of snow. Simply slide up to where the snow is and cast
+    Scoop to acquire Mold.</string>
+    <string name="lost_age_battle_effect_39" formatted="false">When Mold is used in battle, a holographic image of a Venus Djinni
+    briefly absorbs itself into the target, then one of two things may happen; if there is at least one other enemy to the side of
+    the target, the target will physically attack the other enemy (which other enemy it will hit is randomly chosen if there is more
+    than one other enemy than the target of Mold) while the battle text reports "[Enemy] attacks an ally!", and the struck enemy takes
+    the resultant damage. Otherwise, if Mold is used on a lone enemy, the target is suddenly damaged while the battle text reports
+    "[Enemy], stop hitting yourself!". (The mechanics of Mold certainly make it a much different sort of attack than the in-game
+    description of “Strike a foe” would indicate.) In either case, the enemy that is physically struck is struck with a Venus-based
+    attack equal in power to the user\'s normal physical attack with an additional 80 damage points.</string>
+    <string name="lost_age_set_bonus_39">When set, Mold increases the Adept\'s base HP by 8, base Attack by 4, base Agility by 2, and base Luck by 1.</string>
+
+    <string name="lost_age_name_40">Balm</string>
+    <string name="lost_age_element_40">Mercury</string>
+    <string name="lost_age_flavor_40">Revive all downed allies</string>
+    <string name="lost_age_location_40">Mars Lighthouse</string>
+    <string name="lost_age_catching_description_40">Balm is located in Mars Lighthouse, in a large room with a slippery ice floor that
+    you would have to go through on the first half of the dungeon on your way to the Flame Dragon boss battle. From where you enter
+    the room, before stepping on the ice cast Move on the dragon statue to the immediate left and slide it to the left remotely. Then
+    slide down, left, down, left, up, right, up, left, down, left, and down to place yourself just to the right of Balm. Battle it and
+    earn it, then slide up to get to where you can get the Teleport Lapis.</string>
+    <string name="lost_age_battle_effect_40" formatted="false">When Balm is used in battle, the entire party is surrounded by an elaborate
+    visual of glowing blue holographic images of avian pinions falling down. Each of the downed Adepts in the current battling party has
+    a 60% chance to be revived and cured to 60% of their respective maximum HP meters.</string>
+    <string name="lost_age_set_bonus_40">When set, Balm increases the Adept\'s base HP by 13 and base PP by 4.</string>
+
+    <string name="lost_age_name_41">Fugue</string>
+    <string name="lost_age_element_41">Mars</string>
+    <string name="lost_age_flavor_41">Fatigue your foes to drop their PP</string>
+    <string name="lost_age_location_41">Mars Lighthouse</string>
+    <string name="lost_age_catching_description_41">Fugue is located in Mars Lighthouse, and is reachable only after Mars Lighthouse
+    has been "turned on" and made hotter. From the "main lobby", enter the rightmost door, and you are led to Fugue pretty quickly.
+    It must be battled in order to be acquired.</string>
+    <string name="lost_age_battle_effect_41" formatted="false">When Fugue is used in battle, a holographic image of a Mars Djinni
+    floats above the party and projects a series of large, fast-moving glowing red symbols resembling musical notes in the enemy
+    party\'s direction. Fugue damages the target\'s PP meters as though they were HP meters being damaged by a Mars Psynergy with
+    a power rating of 19 and a range of All; if elemental strengths, weaknesses and resistances were not a part of the game,
+    all enemies would lose about 19 PP, but the amount of PP-damage dealt will be raised if the user has a higher Mars power
+    rating and the enemies have lower Mars resistance ratings. The amount of PP-damage will also be affected by other battle
+    factors, such as being cut in half if the affected enemy is using the Defend command this turn.</string>
+    <string name="lost_age_set_bonus_41">When set, Fugue increases the Adept\'s base HP by 11, base PP by 4, and base Defense by 2.</string>
+
+    <string name="lost_age_name_42">Gale</string>
+    <string name="lost_age_element_42">Jupiter</string>
+    <string name="lost_age_flavor_42">Blast enemies with a wind strike</string>
+    <string name="lost_age_location_42">Treasure Isle, requires Lift</string>
+    <string name="lost_age_catching_description_42">Gale is located in the deeper, later part of the optional Treasure Isle dungeon
+    that is accessible only with the Lift Psynergy that comes with Isaac\'s party when they join late in The Lost Age. Gale is in a
+    particularly large room with several Lift-able boulders, presented as a puzzle just like the puzzle in Shaman Village Cave that
+    rewards you with the Mercury Djinni Eddy. What is often not realized by players, though, is that Gale does not require to be
+    "trapped" by a boulder that has been Lifted up (as pictured) because it will not try to get away via the space to its right even
+    if the space is empty; all you need to do is to reach it and you will engage in the battle.</string>
+    <string name="lost_age_battle_effect_42" formatted="false">When Gale is used in battle, a holographic image of a Jupiter Djinni
+    appears and pushes the target away from the party using a projected whirlwind of purple energy extremely visually similar to that
+    of Whorl. It deals a Jupiter-based attack equal in power to the user\'s normal physical attack with an additional 60 damage points
+    added to the result, provided its chance to instantly remove the target from the battle does not kick in. When the target is
+    removed from the battle, the battle text reports "[Enemy] was blown far away!", and if that was the only enemy in the battle,
+    the battle immediately ends without any EXP or Coin rewards; otherwise, the enemy\'s sprite will instantly disappear, and the
+    battle continues with the remaining enemies on the field. You will not get the EXP or Coin rewards from the enemy that was blown
+    away, just for enemies that you actually fell.</string>
+    <string name="lost_age_set_bonus_42">When set, Gale increases the Adept\'s base HP by 10, base Agility by 5, and base Luck by 3.</string>
+
+    <string name="lost_age_name_43">Crystal</string>
+    <string name="lost_age_element_43">Venus</string>
+    <string name="lost_age_flavor_43">Restore HP to all allies</string>
+    <string name="lost_age_location_43">Yampi Desert Cave, requires Teleport</string>
+    <string name="lost_age_catching_description_43">Crystal is findable in the optional dungeon Yampi Desert Cave, an optional endgame
+    dungeon accessible only with the Teleport Psynergy. When you eventually get to its area, you will find a group of sand on the ground
+    where something under the sand appears in four designated spots in a predetermined pattern and at a moderately fast rate. Find a
+    place where it appears, and at the moment the moving sand appears in front of you, cast Scoop - you can use the Select button to
+    open the Psynergy menu and take your time casting Scoop while the sand pile is frozen in place by the fact that your game\'s
+    Psynergy menu is open. Crystal is automatically battled once it is unearthed.</string>
+    <string name="lost_age_battle_effect_43" formatted="false">When Crystal is used in battle, an elaborate, circular glowing orange
+    symbol appears under the party\'s feet and rotates counterclockwise as orange energy is projected upwards through the party. All
+    current battling Adepts have their HP meters restored by 50% of their respective maximum HP meters, making it superior to the
+    otherwise similar effect shared by the Venus Djinni Flower and the Mercury Djinni Spritz.</string>
+    <string name="lost_age_set_bonus_43">When set, Crystal increases the Adept\'s base HP by 10, base PP by 5, and base Defense by 2.</string>
+
+    <string name="lost_age_name_44">Serac</string>
+    <string name="lost_age_element_44">Mercury</string>
+    <string name="lost_age_flavor_44">Strike a chilling finishing blow</string>
+    <string name="lost_age_location_44">Islet Cave, requires Teleport</string>
+    <string name="lost_age_catching_description_44">Serac is found in the long series of hallways in the portion of Islet Cave
+    accessibly only with theTeleport Psynergy found at the end of the game. It is hiding in an elevated statue in the second of
+    the four narrow hallways, and can only be brought down to reachability by casting theTremor Psynergy while facing toward the
+    statue. The Djinni must be battled to be acquired.</string>
+    <string name="lost_age_battle_effect_44" formatted="false">When Serac is used in battle, a holographic image of a Mercury Djinni
+    goes into the ground at the target\'s feet and disappears as a 3D polygonal iceberg appears at the position of the targeted enemy
+    in its place and the camera swivels around towards the enemy side\'s perspective, and then the user leaps forward to attack and
+    shatters the iceberg. It deals a Mercury-based attack equal in power to the user\'s normal physical attack with an additional 70
+    damage points added to the result, provided its chance to instantly fell the target does not kick in.</string>
+    <string name="lost_age_set_bonus_44">When set, Serac increases the Adept\'s base HP by 12 and base Attack by 3.</string>
+
     <!-- Djinn List -->
     <string name="title_activity_djinn_list">Djinn List</string>
 

@@ -343,6 +343,20 @@
         <item>@string/lost_age_name_28</item>
         <item>@string/lost_age_name_29</item>
         <item>@string/lost_age_name_30</item>
+        <item>@string/lost_age_name_31</item>
+        <item>@string/lost_age_name_32</item>
+        <item>@string/lost_age_name_33</item>
+        <item>@string/lost_age_name_34</item>
+        <item>@string/lost_age_name_35</item>
+        <item>@string/lost_age_name_36</item>
+        <item>@string/lost_age_name_37</item>
+        <item>@string/lost_age_name_38</item>
+        <item>@string/lost_age_name_39</item>
+        <item>@string/lost_age_name_40</item>
+        <item>@string/lost_age_name_41</item>
+        <item>@string/lost_age_name_42</item>
+        <item>@string/lost_age_name_43</item>
+        <item>@string/lost_age_name_44</item>
     </string-array>
 
     <string-array name="lost_age_djinn_elements">
@@ -376,6 +390,20 @@
         <item>@string/lost_age_element_28</item>
         <item>@string/lost_age_element_29</item>
         <item>@string/lost_age_element_30</item>
+        <item>@string/lost_age_element_31</item>
+        <item>@string/lost_age_element_32</item>
+        <item>@string/lost_age_element_33</item>
+        <item>@string/lost_age_element_34</item>
+        <item>@string/lost_age_element_35</item>
+        <item>@string/lost_age_element_36</item>
+        <item>@string/lost_age_element_37</item>
+        <item>@string/lost_age_element_38</item>
+        <item>@string/lost_age_element_39</item>
+        <item>@string/lost_age_element_40</item>
+        <item>@string/lost_age_element_41</item>
+        <item>@string/lost_age_element_42</item>
+        <item>@string/lost_age_element_43</item>
+        <item>@string/lost_age_element_44</item>
     </string-array>
 
     <string-array name="lost_age_djinn_flavors">
@@ -409,6 +437,20 @@
         <item>@string/lost_age_flavor_28</item>
         <item>@string/lost_age_flavor_29</item>
         <item>@string/lost_age_flavor_30</item>
+        <item>@string/lost_age_flavor_31</item>
+        <item>@string/lost_age_flavor_32</item>
+        <item>@string/lost_age_flavor_33</item>
+        <item>@string/lost_age_flavor_34</item>
+        <item>@string/lost_age_flavor_35</item>
+        <item>@string/lost_age_flavor_36</item>
+        <item>@string/lost_age_flavor_37</item>
+        <item>@string/lost_age_flavor_38</item>
+        <item>@string/lost_age_flavor_39</item>
+        <item>@string/lost_age_flavor_40</item>
+        <item>@string/lost_age_flavor_41</item>
+        <item>@string/lost_age_flavor_42</item>
+        <item>@string/lost_age_flavor_43</item>
+        <item>@string/lost_age_flavor_44</item>
     </string-array>
 
     <string-array name="lost_age_djinn_locations">
@@ -442,6 +484,20 @@
         <item>@string/lost_age_location_28</item>
         <item>@string/lost_age_location_29</item>
         <item>@string/lost_age_location_30</item>
+        <item>@string/lost_age_location_31</item>
+        <item>@string/lost_age_location_32</item>
+        <item>@string/lost_age_location_33</item>
+        <item>@string/lost_age_location_34</item>
+        <item>@string/lost_age_location_35</item>
+        <item>@string/lost_age_location_36</item>
+        <item>@string/lost_age_location_37</item>
+        <item>@string/lost_age_location_38</item>
+        <item>@string/lost_age_location_39</item>
+        <item>@string/lost_age_location_40</item>
+        <item>@string/lost_age_location_41</item>
+        <item>@string/lost_age_location_42</item>
+        <item>@string/lost_age_location_43</item>
+        <item>@string/lost_age_location_44</item>
     </string-array>
 
     <string-array name="lost_age_djinn_catching_descriptions">
@@ -475,6 +531,20 @@
         <item>@string/lost_age_catching_description_28</item>
         <item>@string/lost_age_catching_description_29</item>
         <item>@string/lost_age_catching_description_30</item>
+        <item>@string/lost_age_catching_description_31</item>
+        <item>@string/lost_age_catching_description_32</item>
+        <item>@string/lost_age_catching_description_33</item>
+        <item>@string/lost_age_catching_description_34</item>
+        <item>@string/lost_age_catching_description_35</item>
+        <item>@string/lost_age_catching_description_36</item>
+        <item>@string/lost_age_catching_description_37</item>
+        <item>@string/lost_age_catching_description_38</item>
+        <item>@string/lost_age_catching_description_39</item>
+        <item>@string/lost_age_catching_description_40</item>
+        <item>@string/lost_age_catching_description_41</item>
+        <item>@string/lost_age_catching_description_42</item>
+        <item>@string/lost_age_catching_description_43</item>
+        <item>@string/lost_age_catching_description_44</item>
     </string-array>
 
     <string-array name="lost_age_djinn_battle_effects">
@@ -508,6 +578,20 @@
         <item>@string/lost_age_battle_effect_28</item>
         <item>@string/lost_age_battle_effect_29</item>
         <item>@string/lost_age_battle_effect_30</item>
+        <item>@string/lost_age_battle_effect_31</item>
+        <item>@string/lost_age_battle_effect_32</item>
+        <item>@string/lost_age_battle_effect_33</item>
+        <item>@string/lost_age_battle_effect_34</item>
+        <item>@string/lost_age_battle_effect_35</item>
+        <item>@string/lost_age_battle_effect_36</item>
+        <item>@string/lost_age_battle_effect_37</item>
+        <item>@string/lost_age_battle_effect_38</item>
+        <item>@string/lost_age_battle_effect_39</item>
+        <item>@string/lost_age_battle_effect_40</item>
+        <item>@string/lost_age_battle_effect_41</item>
+        <item>@string/lost_age_battle_effect_42</item>
+        <item>@string/lost_age_battle_effect_43</item>
+        <item>@string/lost_age_battle_effect_44</item>
     </string-array>
 
     <integer-array name="lost_age_djinn_fights">
@@ -588,6 +672,20 @@
         <item>@drawable/lost_age_location_28</item>
         <item>@drawable/lost_age_location_29</item>
         <item>@drawable/lost_age_location_30</item>
+        <item>@drawable/lost_age_location_31</item>
+        <item>@drawable/lost_age_location_32</item>
+        <item>@drawable/lost_age_location_33</item>
+        <item>@drawable/lost_age_location_34</item>
+        <item>@drawable/lost_age_location_35</item>
+        <item>@drawable/lost_age_location_36</item>
+        <item>@drawable/lost_age_location_37</item>
+        <item>@drawable/lost_age_location_38</item>
+        <item>@drawable/lost_age_location_39</item>
+        <item>@drawable/lost_age_location_40</item>
+        <item>@drawable/lost_age_location_41</item>
+        <item>@drawable/lost_age_location_42</item>
+        <item>@drawable/lost_age_location_43</item>
+        <item>@drawable/lost_age_location_44</item>
     </string-array>
 
     <string-array name="lost_age_screenshots">
@@ -621,6 +719,20 @@
         <item>@drawable/lost_age_screenshot_28</item>
         <item>@drawable/lost_age_screenshot_29</item>
         <item>@drawable/lost_age_screenshot_30</item>
+        <item>@drawable/lost_age_screenshot_31</item>
+        <item>@drawable/lost_age_screenshot_32</item>
+        <item>@drawable/lost_age_screenshot_33</item>
+        <item>@drawable/lost_age_screenshot_34</item>
+        <item>@drawable/lost_age_screenshot_35</item>
+        <item>@drawable/lost_age_screenshot_36</item>
+        <item>@drawable/lost_age_screenshot_37</item>
+        <item>@drawable/lost_age_screenshot_38</item>
+        <item>@drawable/lost_age_screenshot_39</item>
+        <item>@drawable/lost_age_screenshot_40</item>
+        <item>@drawable/lost_age_screenshot_41</item>
+        <item>@drawable/lost_age_screenshot_42</item>
+        <item>@drawable/lost_age_screenshot_43</item>
+        <item>@drawable/lost_age_screenshot_44</item>
     </string-array>
 
     <string-array name="lost_age_djinn_set_bonus">
@@ -654,6 +766,20 @@
         <item>@string/lost_age_set_bonus_28</item>
         <item>@string/lost_age_set_bonus_29</item>
         <item>@string/lost_age_set_bonus_30</item>
+        <item>@string/lost_age_set_bonus_31</item>
+        <item>@string/lost_age_set_bonus_32</item>
+        <item>@string/lost_age_set_bonus_33</item>
+        <item>@string/lost_age_set_bonus_34</item>
+        <item>@string/lost_age_set_bonus_35</item>
+        <item>@string/lost_age_set_bonus_36</item>
+        <item>@string/lost_age_set_bonus_37</item>
+        <item>@string/lost_age_set_bonus_38</item>
+        <item>@string/lost_age_set_bonus_39</item>
+        <item>@string/lost_age_set_bonus_40</item>
+        <item>@string/lost_age_set_bonus_41</item>
+        <item>@string/lost_age_set_bonus_42</item>
+        <item>@string/lost_age_set_bonus_43</item>
+        <item>@string/lost_age_set_bonus_44</item>
     </string-array>
 
 </resources>

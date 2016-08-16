@@ -69,7 +69,7 @@
             android:padding="@dimen/medium_spacing"
             android:text="@string/djinni_detail_how_to_obtain"
             android:textColor="@color/white"
-            android:textSize="@dimen/text_xlarge"
+            android:textSize="@dimen/text_large"
             />
 
         <TextView
@@ -87,7 +87,7 @@
             android:padding="@dimen/medium_spacing"
             android:text="@string/djinni_detail_battle_effect"
             android:textColor="@color/white"
-            android:textSize="@dimen/text_xlarge"
+            android:textSize="@dimen/text_large"
             />
 
         <TextView
@@ -105,7 +105,7 @@
             android:padding="@dimen/medium_spacing"
             android:text="@string/djinni_detail_label_set_bonus"
             android:textColor="@color/white"
-            android:textSize="@dimen/text_xlarge"
+            android:textSize="@dimen/text_large"
             />
 
         <TextView
