@@ -8,6 +8,7 @@ import com.example.scardenas.djinnlist.data.Djinni;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.ViewById;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -100,6 +101,11 @@ public class MainActivity extends BaseActivity {
     @Click(R.id.main_image_view_the_lost_age)
     public void onClickTheLostAge() {
         DjinnListActivity_.intent(MainActivity.this).game(LOST_AGE).start();
+    }
+
+    @Click(R.id.main_profile_resume_text)
+    public void onClickProfileResume() {
+        ProfileActivity_.intent(MainActivity.this).start();
     }
 
 }

@@ -3,6 +3,7 @@
     <color name="color_primary">#78909C</color>
     <color name="color_primary_dark">#455A64</color>
     <color name="color_accent">#FFC400</color>
+    <color name="color_accent_lighter">#FFE57F</color>
 
     <color name="venus_primary">#4E342E</color>
     <color name="venus_secondary">#8D6E63</color>

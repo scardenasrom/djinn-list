@@ -24,6 +24,9 @@
             android:label="@string/title_activity_djinni_detail"
             android:theme="@style/AppTheme.NoActionBar"
             />
+        <activity android:name=".ui.ProfileActivity_"
+            android:label="@string/profile_activity_label"
+            />
     </application>
 
 </manifest>

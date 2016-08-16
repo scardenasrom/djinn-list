@@ -2,6 +2,7 @@
     <string name="app_name">Djinn List</string>
 
     <string name="view_djinni_caught">Obtained?</string>
+    <string name="number">%d</string>
 
     <!-- Golden Sun Djinns -->
     <string name="golden_sun_name_1">Flint</string>
@@ -955,6 +956,9 @@
     damage points added to the result, provided its chance to instantly fell the target does not kick in.</string>
     <string name="lost_age_set_bonus_44">When set, Serac increases the Adept\'s base HP by 12 and base Attack by 3.</string>
 
+    <!-- Main Activity -->
+    <string name="main_profile_resume">Profile</string>
+
     <!-- Djinn List -->
     <string name="title_activity_djinn_list">Djinn List</string>
 
@@ -963,6 +967,18 @@
     <string name="djinni_detail_how_to_obtain">How to Obtain</string>
     <string name="djinni_detail_battle_effect">Battle Effect</string>
     <string name="djinni_detail_label_set_bonus">Set Bonus</string>
+
+    <!-- Profile -->
+    <string name="profile_activity_label">Profile</string>
+    <string name="profile_golden_sun_label">Golden Sun Djinn Obtained</string>
+    <string name="profile_lost_age_label">Lost Age Djinn Obtained</string>
+    <string name="profile_reset_data">Reset Data</string>
+
+    <string name="profile_reset_data_dialog_title">Reset App Data</string>
+    <string name="profile_reset_data_dialog_message">Do you want to reset all app data? This includes all djinn related information.</string>
+    <string name="profile_reset_data_dialog_pos_btn">Reset Data</string>
+    <string name="profile_reset_data_dialog_neg_btn">Cancel</string>
+    <string name="profile_reset_data_snackbar">Data has been reset</string>
 
     <string name="action_settings">Settings</string>
 
