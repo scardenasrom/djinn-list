@@ -1,11 +1,13 @@
 package com.example.scardenas.djinnlist.ui;
 
 import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.scardenas.djinnlist.BaseActivity;
@@ -18,6 +20,7 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.Extra;
 import org.androidannotations.annotations.OptionsItem;
 import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.res.ColorRes;
 
 import java.util.Collections;
 import java.util.List;
@@ -25,11 +28,14 @@ import java.util.List;
 @EActivity(R.layout.activity_djinni_detail)
 public class DjinniDetailActivity extends BaseActivity {
 
+    @Extra("comingFromProfile")
+    boolean comingFromProfile;
     @Extra("gameName")
     String gameName;
     @Extra("djinni")
     Djinni djinni;
 
+    @ViewById(R.id.djinni_detail_caught_layout) LinearLayout caughtLayout;
     @ViewById(R.id.djinni_detail_app_bar) AppBarLayout appBarLayout;
     @ViewById(R.id.djinni_detail_toolbar_layout) CollapsingToolbarLayout collapsingToolbarLayout;
     @ViewById(R.id.djinni_detail_screenshot_parallax) ImageView imageViewParallaxScreenshot;
@@ -122,95 +128,78 @@ public class DjinniDetailActivity extends BaseActivity {
         textViewHowToObtain.setText(djinni.getCatchingDescription());
         textViewBattleEffect.setText(djinni.getBattleEffect());
         textViewSetBonus.setText(djinni.getSetBonus());
+        int primaryColor = 0;
+        int secondaryColor = 0;
         switch (djinni.getElement()) {
-            case "Venus":
-                configureVenusDjinni();
+            case VENUS:
+                primaryColor = colorVenusPrimary;
+                secondaryColor = colorVenusSecondary;
+                imageViewFloatingIconLeft.setImageDrawable(drawableVenusDjinn);
                 break;
-            case "Mars":
-                configureMarsDjinni();
+            case MARS:
+                primaryColor = colorMarsPrimary;
+                secondaryColor = colorMarsSecondary;
+                imageViewFloatingIconRight.setImageDrawable(drawableMarsDjinn);
                 break;
-            case "Jupiter":
-                configureJupiterDjinni();
+            case JUPITER:
+                primaryColor = colorJupiterPrimary;
+                secondaryColor = colorJupiterSecondary;
+                imageViewFloatingIconRight.setImageDrawable(drawableJupiterDjinn);
                 break;
-            case "Mercury":
-                configureMercuryDjinni();
+            case MERCURY:
+                primaryColor = colorMercuryPrimary;
+                secondaryColor = colorMercurySecondary;
+                imageViewFloatingIconLeft.setImageDrawable(drawableMercuryDjinn);
                 break;
         }
+        collapsingToolbarLayout.setContentScrimColor(secondaryColor);
+        collapsingToolbarLayout.setStatusBarScrimColor(primaryColor);
+        labelHowToObtain.setBackgroundColor(primaryColor);
+        labelBattleEffect.setBackgroundColor(primaryColor);
+        labelSetBonus.setBackgroundColor(primaryColor);
     }
 
     private void configureCaughtBox() {
-        if (djinni.isCaught()) {
-            caught = true;
-            imageViewCaughtBox.setImageDrawable(getResources().getDrawable(R.drawable.ic_djinni_caught));
+        if (comingFromProfile) {
+            caughtLayout.setVisibility(View.INVISIBLE);
         } else {
-            caught = false;
-            imageViewCaughtBox.setImageDrawable(getResources().getDrawable(R.drawable.ic_djinni_not_caught));
-        }
-        imageViewCaughtBox.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                caught = !caught;
-                if (caught) {
-                    imageViewCaughtBox.setImageDrawable(getResources().getDrawable(R.drawable.ic_djinni_caught));
-                    djinniList.get(djinni.getOrder()-1).setCaught(true);
-                    switch (gameName) {
-                        case GOLDEN_SUN:
-                            preferenceManager.setGoldenSunDjinns(djinniList);
-                            break;
-                        case LOST_AGE:
-                            preferenceManager.setLostAgeDjinns(djinniList);
-                            break;
-                    }
-                } else {
-                    imageViewCaughtBox.setImageDrawable(getResources().getDrawable(R.drawable.ic_djinni_not_caught));
-                    djinniList.get(djinni.getOrder()-1).setCaught(false);
-                    switch (gameName) {
-                        case GOLDEN_SUN:
-                            preferenceManager.setGoldenSunDjinns(djinniList);
-                            break;
-                        case LOST_AGE:
-                            preferenceManager.setLostAgeDjinns(djinniList);
-                            break;
+            if (djinni.isCaught()) {
+                caught = true;
+                imageViewCaughtBox.setImageDrawable(getResources().getDrawable(R.drawable.ic_djinni_caught));
+            } else {
+                caught = false;
+                imageViewCaughtBox.setImageDrawable(getResources().getDrawable(R.drawable.ic_djinni_not_caught));
+            }
+            imageViewCaughtBox.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    caught = !caught;
+                    if (caught) {
+                        imageViewCaughtBox.setImageDrawable(getResources().getDrawable(R.drawable.ic_djinni_caught));
+                        djinniList.get(djinni.getOrder()-1).setCaught(true);
+                        switch (gameName) {
+                            case GOLDEN_SUN:
+                                preferenceManager.setGoldenSunDjinns(djinniList);
+                                break;
+                            case LOST_AGE:
+                                preferenceManager.setLostAgeDjinns(djinniList);
+                                break;
+                        }
+                    } else {
+                        imageViewCaughtBox.setImageDrawable(getResources().getDrawable(R.drawable.ic_djinni_not_caught));
+                        djinniList.get(djinni.getOrder()-1).setCaught(false);
+                        switch (gameName) {
+                            case GOLDEN_SUN:
+                                preferenceManager.setGoldenSunDjinns(djinniList);
+                                break;
+                            case LOST_AGE:
+                                preferenceManager.setLostAgeDjinns(djinniList);
+                                break;
+                        }
                     }
                 }
-            }
-        });
-    }
-
-    private void configureVenusDjinni() {
-        imageViewFloatingIconLeft.setImageDrawable(getResources().getDrawable(R.drawable.venus_djinn));
-        collapsingToolbarLayout.setContentScrimColor(getResources().getColor(R.color.venus_secondary));
-        collapsingToolbarLayout.setStatusBarScrimColor(getResources().getColor(R.color.venus_primary));
-        labelHowToObtain.setBackgroundColor(getResources().getColor(R.color.venus_primary));
-        labelBattleEffect.setBackgroundColor(getResources().getColor(R.color.venus_primary));
-        labelSetBonus.setBackgroundColor(getResources().getColor(R.color.venus_primary));
-    }
-
-    private void configureMarsDjinni() {
-        imageViewFloatingIconRight.setImageDrawable(getResources().getDrawable(R.drawable.mars_djinn));
-        collapsingToolbarLayout.setContentScrimColor(getResources().getColor(R.color.mars_secondary));
-        collapsingToolbarLayout.setStatusBarScrimColor(getResources().getColor(R.color.mars_primary));
-        labelHowToObtain.setBackgroundColor(getResources().getColor(R.color.mars_primary));
-        labelBattleEffect.setBackgroundColor(getResources().getColor(R.color.mars_primary));
-        labelSetBonus.setBackgroundColor(getResources().getColor(R.color.mars_primary));
-    }
-
-    private void configureJupiterDjinni() {
-        imageViewFloatingIconRight.setImageDrawable(getResources().getDrawable(R.drawable.jupiter_djinn));
-        collapsingToolbarLayout.setContentScrimColor(getResources().getColor(R.color.jupiter_secondary));
-        collapsingToolbarLayout.setStatusBarScrimColor(getResources().getColor(R.color.jupiter_primary));
-        labelHowToObtain.setBackgroundColor(getResources().getColor(R.color.jupiter_primary));
-        labelBattleEffect.setBackgroundColor(getResources().getColor(R.color.jupiter_primary));
-        labelSetBonus.setBackgroundColor(getResources().getColor(R.color.jupiter_primary));
-    }
-
-    private void configureMercuryDjinni() {
-        imageViewFloatingIconLeft.setImageDrawable(getResources().getDrawable(R.drawable.mercury_djinn));
-        collapsingToolbarLayout.setContentScrimColor(getResources().getColor(R.color.mercury_secondary));
-        collapsingToolbarLayout.setStatusBarScrimColor(getResources().getColor(R.color.mercury_primary));
-        labelHowToObtain.setBackgroundColor(getResources().getColor(R.color.mercury_primary));
-        labelBattleEffect.setBackgroundColor(getResources().getColor(R.color.mercury_primary));
-        labelSetBonus.setBackgroundColor(getResources().getColor(R.color.mercury_primary));
+            });
+        }
     }
 
     @OptionsItem(android.R.id.home)

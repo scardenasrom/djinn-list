@@ -238,15 +238,15 @@
         <item>@drawable/golden_sun_location_17</item>
         <item>@drawable/golden_sun_location_18</item>
         <item>@drawable/golden_sun_location_19</item>
-        <item>@drawable/golden_sun_location_1</item>
-        <item>@drawable/golden_sun_location_1</item>
-        <item>@drawable/golden_sun_location_1</item>
-        <item>@drawable/golden_sun_location_1</item>
-        <item>@drawable/golden_sun_location_1</item>
-        <item>@drawable/golden_sun_location_1</item>
-        <item>@drawable/golden_sun_location_1</item>
-        <item>@drawable/golden_sun_location_1</item>
-        <item>@drawable/golden_sun_location_1</item>
+        <item>@drawable/golden_sun_location_20</item>
+        <item>@drawable/golden_sun_location_21</item>
+        <item>@drawable/golden_sun_location_22</item>
+        <item>@drawable/golden_sun_location_23</item>
+        <item>@drawable/golden_sun_location_24</item>
+        <item>@drawable/golden_sun_location_25</item>
+        <item>@drawable/golden_sun_location_26</item>
+        <item>@drawable/golden_sun_location_27</item>
+        <item>@drawable/golden_sun_location_28</item>
     </string-array>
 
     <string-array name="golden_sun_screenshots">
@@ -269,15 +269,15 @@
         <item>@drawable/golden_sun_screenshot_17</item>
         <item>@drawable/golden_sun_screenshot_18</item>
         <item>@drawable/golden_sun_screenshot_19</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
-        <item>@drawable/golden_sun_screenshot_1</item>
+        <item>@drawable/golden_sun_screenshot_20</item>
+        <item>@drawable/golden_sun_screenshot_21</item>
+        <item>@drawable/golden_sun_screenshot_22</item>
+        <item>@drawable/golden_sun_screenshot_23</item>
+        <item>@drawable/golden_sun_screenshot_24</item>
+        <item>@drawable/golden_sun_screenshot_25</item>
+        <item>@drawable/golden_sun_screenshot_26</item>
+        <item>@drawable/golden_sun_screenshot_27</item>
+        <item>@drawable/golden_sun_screenshot_28</item>
     </string-array>
 
     <string-array name="golden_sun_djinn_set_bonus">

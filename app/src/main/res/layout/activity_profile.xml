@@ -6,22 +6,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_primary"
-    android:padding="@dimen/medium_spacing"
     tools:context="com.example.scardenas.djinnlist.ui.ProfileActivity"
     >
 
     <LinearLayout
+        android:id="@+id/profile_layout_summarize"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_centerInParent="true"
         android:gravity="center"
+        android:layout_centerInParent="true"
+        android:padding="@dimen/medium_spacing"
         >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:layout_marginBottom="@dimen/large_spacing"
+            android:text="@string/profile_explanation"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_medium"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/large_spacing"
             android:text="@string/profile_golden_sun_label"
             android:textColor="@color/white"
             android:textSize="@dimen/text_medium"
@@ -38,8 +50,10 @@
             >
 
             <ImageView
+                android:id="@+id/profile_golden_sun_venus_star"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:clickable="true"
                 android:scaleType="centerInside"
                 android:src="@drawable/venus"
                 />
@@ -48,15 +62,17 @@
                 android:id="@+id/profile_golden_sun_venus_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/small_spacing"
+                android:layout_marginRight="@dimen/xsmall_spacing"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_normal"
                 />
 
             <ImageView
+                android:id="@+id/profile_golden_sun_mars_star"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="@dimen/small_spacing"
+                android:clickable="true"
+                android:layout_marginLeft="@dimen/xsmall_spacing"
                 android:scaleType="centerInside"
                 android:src="@drawable/mars"
                 />
@@ -65,15 +81,17 @@
                 android:id="@+id/profile_golden_sun_mars_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/small_spacing"
+                android:layout_marginRight="@dimen/xsmall_spacing"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_normal"
                 />
 
             <ImageView
+                android:id="@+id/profile_golden_sun_jupiter_star"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="@dimen/small_spacing"
+                android:clickable="true"
+                android:layout_marginLeft="@dimen/xsmall_spacing"
                 android:scaleType="centerInside"
                 android:src="@drawable/jupiter"
                 />
@@ -82,15 +100,17 @@
                 android:id="@+id/profile_golden_sun_jupiter_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/small_spacing"
+                android:layout_marginRight="@dimen/xsmall_spacing"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_normal"
                 />
 
             <ImageView
+                android:id="@+id/profile_golden_sun_mercury_star"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="@dimen/small_spacing"
+                android:clickable="true"
+                android:layout_marginLeft="@dimen/xsmall_spacing"
                 android:scaleType="centerInside"
                 android:src="@drawable/mercury"
                 />
@@ -126,8 +146,10 @@
             >
 
             <ImageView
+                android:id="@+id/profile_lost_age_venus_star"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:clickable="true"
                 android:scaleType="centerInside"
                 android:src="@drawable/venus"
                 />
@@ -136,15 +158,17 @@
                 android:id="@+id/profile_lost_age_venus_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/small_spacing"
+                android:layout_marginRight="@dimen/xsmall_spacing"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_normal"
                 />
 
             <ImageView
+                android:id="@+id/profile_lost_age_mars_star"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="@dimen/small_spacing"
+                android:clickable="true"
+                android:layout_marginLeft="@dimen/xsmall_spacing"
                 android:scaleType="centerInside"
                 android:src="@drawable/mars"
                 />
@@ -153,15 +177,17 @@
                 android:id="@+id/profile_lost_age_mars_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/small_spacing"
+                android:layout_marginRight="@dimen/xsmall_spacing"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_normal"
                 />
 
             <ImageView
+                android:id="@+id/profile_lost_age_jupiter_star"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="@dimen/small_spacing"
+                android:clickable="true"
+                android:layout_marginLeft="@dimen/xsmall_spacing"
                 android:scaleType="centerInside"
                 android:src="@drawable/jupiter"
                 />
@@ -170,15 +196,17 @@
                 android:id="@+id/profile_lost_age_jupiter_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/small_spacing"
+                android:layout_marginRight="@dimen/xsmall_spacing"
                 android:textColor="@color/white"
                 android:textSize="@dimen/text_normal"
                 />
 
             <ImageView
+                android:id="@+id/profile_lost_age_mercury_star"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="@dimen/small_spacing"
+                android:clickable="true"
+                android:layout_marginLeft="@dimen/xsmall_spacing"
                 android:scaleType="centerInside"
                 android:src="@drawable/mercury"
                 />
@@ -207,5 +235,21 @@
             />
 
     </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/profile_djinn_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_primary_dark"
+        android:visibility="gone"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/profile_djinn_list_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </RelativeLayout>
 
 </RelativeLayout>
